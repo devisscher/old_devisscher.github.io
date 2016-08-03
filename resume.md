@@ -85,7 +85,6 @@ permalink: /resume/
     <dd><em>Ottawa Hospital Research Institute</em>
     <br>
     <p class="muted">June 2015 - present</p>
-    <br>
     <p>Develop and Design Web Applications to support research activities with <a class="asp" id="asp">ASP.NET</a> using <a id="c" class="c">C#</a> and <a id="vb" class="vb">Visual Basic</a> with <a id="vs" class="vs">Visual Studio</a>. Develop web applications
     for: Research Grants, Peer Review and Decision Aid with data access through <a class="mssql" id="mssql">MsSQL</a> databases. Deploy applications to <a class="windows"> Windows Server</a>. Create mobile ready websites and templates
     using <a id="bootstrap" class="bootstrap">Bootstrap CSS</a> framework. Build user interface controls using <a class="js" id="js">Javascript</a> and <a class="jquery" id="jquery">jQuery</a>. Develop <a id="passbook" class="passbook">Passbook</a>          app for special events and seminars by designing the pass and building a <a class="ruby">Ruby/Sinatra</a> API capable of distributing and updating passes. Manage versioning with <a id="svn" class="svn">SVN</a>.
@@ -96,7 +95,6 @@ permalink: /resume/
   <dt class="poste">Web Support Analyst</dt>
   <dd><em>Canada School of Public Service</em>
   <br> <p class="muted">December 2014 - May 2015</p>
-  <br>
   <p>Develop <a class="asp">ASP.NET</a> and <a class="drupal">Drupal</a> websites for the Canada School of Public Service in accordance with Web Standards for the Government of Canada (GOC). Migrate <a class="asp">Classic ASP</a> website to <a class="asp">ASPX</a>/
   <a
     class="vb">Visual Basic</a> with the <a class="wet" id="wet">Web-Experience Toolkit</a> (<a class="bootstrap">Bootstrap CSS</a>) developed by the GOC. Build a <a class="drupal">Drupal</a> engagement forum for the managers community and deploy in <a class="aws">AWS</a>            EBS and EC2 <a class="linux">Linux</a>, <a class="apacher">Apache</a>, <a class="mysql">MySQL</a>, <a class="php" id="php">PhP</a>, environments. Participate in the <a id="qa" class="qa">QA</a> phase of the migration. Manage code and versioning
@@ -107,7 +105,6 @@ permalink: /resume/
     <dt class="poste">Branch Coordinator</dt>
     <dd><em>Canada Border Services Agency</em>
     <br> <p class="muted">May 2011 - December 2014</p>
-    <br>
     <p>
       Test and Develop <a class="drupal">Drupal</a> as a space planning application. Prepare test cases and <a class="qa">QA</a> reports for the application. Coordinate moves and special projects: major moves of up to 1600 persons, A/V Solutions,
       projects based on security requirements, business restructurations, office fit-ups, purchase and procure office furniture. Create and update branch project plans. Provide advice and prepare proposals for space planning. Ensure compliance with
@@ -119,7 +116,6 @@ permalink: /resume/
     <dt class="poste">Programs Administrator</dt>
     <dd><em>Public Service Commission</em>
     <br> <p class="muted">September 2010 - April 2011</p>
-    <br>
     <p>Administer various program websites: Federal Student Work Experience Program, Co-op and Research Affiliate Program. Perform various actions related to staffing of student positions: database queries for potential candidates, present potential
       candidates, advise on human resources policies, log and track staffing actions.
     </p>
@@ -129,7 +125,6 @@ permalink: /resume/
     <dt class="poste">Human Resources Assistant</dt>
     <dd><em>Public Service Commission</em>
     <br> <p class="muted">May 2010 - August 2011</p>
-    <br>
     <p>Ensure all stages of selection processes are completed by producing and updating board reports, scheduling competency and language evaluations and communicating results to candidates. Produce reports and update canditate profiles in SAP records management system. </p>
     </dd>
   </dl>
@@ -137,7 +132,6 @@ permalink: /resume/
     <dt class="poste">Bike and XC Ski Mecanic and Technician</dt>
     <dd><em>Greg Christie's Ski and Cycleworks</em>
     <br> <p class="muted">Aug 2007 - May 2010</p>
-    <br>
     <p>Repair high performance bicycles, wax and prepare high performance skis for athletes and clients. Order parts and accessories. Help with sales and custommer service.</p>
     </dd>
   </dl>
