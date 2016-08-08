@@ -49,6 +49,14 @@ First you will need a machine with [Ubuntu](http://www.ubuntu.com/download/serve
 	```
 	sudo systemctl restart apache2
 	```
+	
+	*You may need mod rewrite for clean url's. The following command will add this extension without having to edit files:
+
+	```
+	a2enmod rewrite
+	```
+
+[Enabling clean URL with mod rewrite and allow all](https://www.drupal.org/getting-started/clean-urls)
 
 6. MySQL
 	
@@ -76,3 +84,5 @@ First you will need a machine with [Ubuntu](http://www.ubuntu.com/download/serve
 - [Github Install](https://www.digitalocean.com/community/tutorials/how-to-install-git-on-ubuntu-14-04#how-to-set-up-git)
 - [LAMP Install](https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-16-04)
 - [NODE.js Install](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-16-04)
+- [MongoDB Install](https://docs.mongodb.com/manual/installation/)
+- [MongoDB Setup remote access](https://www.mkyong.com/mongodb/mongodb-allow-remote-access/)
