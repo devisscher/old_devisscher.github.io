@@ -32,7 +32,6 @@ permalink: /resume/
     <a class="button bitbucket" href="#bitbucket">Bitbucket</a>
     <a class="button bootstrap" href="#bootstrap">Bootstrap CSS</a>
     <a class="button c" href="#c">C#</a>
-    <a class="button c9" href="#c9">C9.io</a>
     <a class="button d3" href="#d3">D3</a>
     <a class="button drupal" href="#drupal">Drupal</a>
     <a class="button express" href="#express">Express</a>
