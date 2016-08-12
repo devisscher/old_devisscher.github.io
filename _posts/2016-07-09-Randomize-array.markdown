@@ -7,7 +7,7 @@ categories: blog
 
 
 
-A function that randomizes an array of image paths.
+A function that randomizes an array of image paths. Yup.
 
 
 ```
