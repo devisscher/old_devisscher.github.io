@@ -5,9 +5,7 @@ date:   2016-07-29 11:29:04 -0400
 categories: blog notes
 ---
 
-# Wordpress Theme Development
-Git repo:
-Dev server:
+It's simple to create a WordPress theme. Here is a simple cheat sheet I use to get started.
 
 
 To create a custom theme: 
