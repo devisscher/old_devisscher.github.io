@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Open dropdown menu parent item when a child is active"
+date:   2016-09-19 11:40:04 -0400
+categories: blog notes
+---
+
+This simple jQuery function will expand a dropdown menu when it has an active child.
+
+<script src="https://gist.github.com/devisscher/384503a85622d764983d5907e120567f.js"></script>
