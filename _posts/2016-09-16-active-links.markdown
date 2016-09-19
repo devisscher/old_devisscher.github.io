@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Open dropdown menu parent item when a child is active"
-date:   2016-09-19 11:40:04 -0400
+title:  "Expand dropdown menus that have active children"
+date:   2016-09-19 11:29:04 -0400
 categories: blog notes
 ---
 
