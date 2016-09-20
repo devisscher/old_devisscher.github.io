@@ -1,19 +1,12 @@
 ---
-layout: default
+layout: home
 ---
-<div class="home">
-  <h1 class="post-title">Home</h1>
-  <ul class="post-list">
-    {% for post in site.posts %}
-      {% if post.categories contains 'blog' %}
-        <li>
-          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-          <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-          </h2>
-        </li>
-      {% endif %}
-    {% endfor %}
-  </ul>
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+<h4>I am Thomas Devisscher</h4>
+<p>I build software.</p>
+<div class="trigger">
+{% for my_page in site.pages %}
+	{% if my_page.title %}
+		<a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+	{% endif %}
+{% endfor %}
 </div>
