@@ -9,4 +9,4 @@ Start a simple smtp server to test sending emails with your local machine.
 
 
  
-``` sudo python -m smtpd -n -c DebuggingServer localhost:25 ```
+<script src="https://gist.github.com/devisscher/6c4ce82e072f8799a614b6505867e7e9.js"></script>

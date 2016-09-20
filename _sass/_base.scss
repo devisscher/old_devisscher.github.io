@@ -540,12 +540,12 @@ pre {
 }
 
 // Github contributions
-.git-block-mobile {
-    display: none;
-}
+// .git-block-mobile {
+//     display: none;
+// }
 
-@include media-query($on-palm) {
-  .git-block-desktop {
-    display: none;
-  }
-}
+// @include media-query($on-palm) {
+//   .git-block-desktop {
+//     display: none;
+//   }
+// }
