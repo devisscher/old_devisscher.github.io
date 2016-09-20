@@ -44,7 +44,24 @@ When not programming or outdoors cycling, skiing, camping, canoing or walking hi
 	</div>
 </div>
 </div>
-<div class="row">
+<div class="row git-block-desktop">
+<div class="col-12">
+<script src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js"></script>
+
+<!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
+<link rel="stylesheet" href="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.css"/>
+
+<!-- Prepare a container for your calendar. -->
+<div class="calendar">
+    <!-- Loading stuff -->
+    Loading the data just for you.
+</div>
+
+<script>
+    new GitHubCalendar(".calendar", "devisscher");
+</script>
+</div>
+<div class="row git-block-mobile">
 <div class="col-12">
 <script src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js"></script>
 
