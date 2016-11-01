@@ -25,7 +25,7 @@ When not programming or outdoors cycling, skiing, camping, canoing or walking hi
 		<img class="card-img-top" src="/assets/doggy.jpg" alt="Card image cap">
 		<div class="card-block">
 			<h4 class="card-title">Linux</h4>
-			<p class="card-text">That's my dog</p>
+			<p class="card-text">That's my dog and I like my servers that way.</p>
 			<!-- <a href="#" class="btn btn-primary">More action</a> -->
 		</div>
 	</div>
