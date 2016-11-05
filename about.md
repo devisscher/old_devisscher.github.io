@@ -3,11 +3,12 @@ layout: page
 title: About
 permalink: /about/
 ---
-Welcome to Tom Devisscher’s website. This is his little corner of the world wide web. You will find a collection of notes, articles, thoughts, and projects that he has worked on.
+Welcome to my website. You will find a collection of notes, articles, thoughts, and projects that I have worked on.
 
-Tom is the type of guy that loves to apply himself to the *nitty* gritty work involved in making great things happen. He knows the importance of hard work and determination and was able to prove himself through cycling at a high level and by learning how to develop software applications.
+I'm the type of guy who loves the nitty gritty work involved in making great things happen. I love to work with others on fun projects, don't hesitate to contact me!
 
-When not programming or outdoors cycling, skiing, camping, canoing or walking his dog you might find Tom hanging out with friends enjoying a few brews.
+When I'm not programming or outdoors cycling, skiing, camping, canoing or walking my dog you might find me hanging out with friends enjoying a few brews or sleeping.
+
 <div class="row">
 <div class="col-6">
 	<div class="card">
