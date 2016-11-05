@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: About me
 permalink: /about/
 ---
 Welcome to my website. You will find a collection of notes, articles, thoughts, and projects that I have worked on.
