@@ -10,4 +10,6 @@ This application was built for the client to organize and broadcast information 
 
 Technologies used:
 
-- Node.js
+- Ruby on Rails
+
+
