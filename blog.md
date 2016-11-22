@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Projects
-permalink: /projects/
+title: Blog
+permalink: /posts/
 ---
 <br>
 <div class="home">
   <ul class="post-list">
     {% for post in site.posts %}
-      {% if post.categories contains 'project' %}
+      {% if post.categories contains 'blog' %}
         <li>
           <span class="post-meta1"></span>
           <h2>

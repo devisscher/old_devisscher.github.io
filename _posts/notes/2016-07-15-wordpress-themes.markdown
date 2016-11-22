@@ -2,7 +2,7 @@
 layout: post
 title:  "Creating a Wordpress theme, cheats."
 date:   2016-07-29 11:29:04 -0400
-categories: blog notes
+categories: notes
 ---
 
 It's simple to create a WordPress theme. Here is a simple cheat sheet I use to get started.

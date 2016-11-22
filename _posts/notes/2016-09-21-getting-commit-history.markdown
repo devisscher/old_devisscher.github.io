@@ -2,7 +2,7 @@
 layout: post
 title:  "Get commit history"
 date:   2016-09-21 11:29:04 -0400
-categories: blog
+categories: notes
 ---
 
 This command will retrieve all the commits for a repository. Run it from within the repo.

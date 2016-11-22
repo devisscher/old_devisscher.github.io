@@ -5,9 +5,9 @@ permalink: /about/
 ---
 Welcome to my website. You will find a collection of notes, articles, thoughts, and projects that I have worked on.
 
-I'm the type of guy who loves the nitty gritty work involved in making great things happen. I love to work with others on fun projects, don't hesitate to contact me!
+I'm the type of guy who loves the nitty gritty work involved in making good things happen. I love to work with others on fun projects, don't hesitate to contact me!
 
-When I'm not programming or outdoors cycling, skiing, camping, canoing or walking my dog you might find me hanging out with friends enjoying a few brews or sleeping.
+When I'm not programming or outdoors cycling, skiing, camping, canoing or walking my dog you might find me hanging out with friends enjoying a few brews or, sleeping.
 
 <div class="row">
 <div class="col-6">
@@ -15,7 +15,6 @@ When I'm not programming or outdoors cycling, skiing, camping, canoing or walkin
 		<img class="card-img-top" src="/assets/thomasmoose.jpeg" alt="Card image cap">
 		<div class="card-block">
 			<h4 class="card-title">Me</h4>
-			<p class="card-text">That's me with a great Canadian moose.</p>
 			<!-- <a href="#" class="btn btn-primary">More action</a> -->
 		</div>
 	</div>
@@ -25,8 +24,7 @@ When I'm not programming or outdoors cycling, skiing, camping, canoing or walkin
 	<div class="card">
 		<img class="card-img-top" src="/assets/doggy.jpg" alt="Card image cap">
 		<div class="card-block">
-			<h4 class="card-title">Linux</h4>
-			<p class="card-text">That's my dog and I like my servers that way.</p>
+			<h4 class="card-title">My dog</h4>
 			<!-- <a href="#" class="btn btn-primary">More action</a> -->
 		</div>
 	</div>

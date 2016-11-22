@@ -2,7 +2,7 @@
 layout: post
 title:  "Expand dropdown menus that have active children"
 date:   2016-09-19 11:29:04 -0400
-categories: blog notes
+categories: notes
 ---
 
 This simple jQuery function will expand a dropdown menu when it has an active child.

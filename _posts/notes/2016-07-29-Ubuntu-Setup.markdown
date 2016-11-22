@@ -2,7 +2,7 @@
 layout: post
 title:  "Setup Ubuntu for Node.js and PHP"
 date:   2016-07-29 11:29:04 -0400
-categories: blog notes
+categories: notes
 ---
 
 This handy guide will help you through setting up an Ubuntu Server for running Node.js applications.
