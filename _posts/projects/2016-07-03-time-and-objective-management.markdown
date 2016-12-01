@@ -14,4 +14,3 @@ Technologies used:
 
 - Node.js
 
-[Check it out ](https://devisscher.ca)
