@@ -12,4 +12,4 @@ Technologies used:
 
 - Ruby on Rails
 
-
+<a href="https://devisscher.ca" target="_blank">Check it out</a>
