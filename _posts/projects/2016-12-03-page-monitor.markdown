@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Page Monitor"
+title:  "Page monitor"
 date:   2016-12-03 11:29:04 -0400
 categories: project
 duration: 2 months

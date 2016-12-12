@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Nokogiri Element Scraper"
+title:  "Nokogiri element scraper"
 date:   2016-06-05 11:29:04 -0400
 categories: project
 duration: 2 weeks

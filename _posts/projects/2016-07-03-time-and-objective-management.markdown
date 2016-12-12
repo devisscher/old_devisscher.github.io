@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "TOM: Time and Objective Management"
+title:  "TOM: Time and objective management"
 date:   2016-07-01 11:29:04 -0400
 categories: project
 duration: 3 months

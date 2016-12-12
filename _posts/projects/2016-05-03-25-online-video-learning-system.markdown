@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Online Video Learning System"
+title:  "Online video learning system"
 date:   2016-09-20 11:29:04 -0400
 categories: project
 duration: 2 months

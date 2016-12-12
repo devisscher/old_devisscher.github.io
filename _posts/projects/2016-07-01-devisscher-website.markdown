@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Devisscher.ca Website"
+title:  "Devisscher.ca website"
 date:   2016-07-01 11:29:04 -0400
 categories: project
 duration: 3 months
