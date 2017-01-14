@@ -14,3 +14,5 @@ if you want a short nickname and your current folder location add the following:
 export PS1="td:\w $ "
 
 ```
+
+Restart terminal and your prompt will be changed. There are many different profile configurations available.
