@@ -25,5 +25,5 @@ The social liberal evolved from the classical liberal, during the keynesien era 
 
 #### 5. The libtard
 
-The libtard is a satyrical blunder of distastful origin. It refers to those liberals that live in a fantasy world. Just by writing the term down I loose all credibility, however the commical and absurd is an important addition to the meaning. You might recall Familly Guy episode where Stewie calls Brian a *******. 
+The libtard is a satyrical blunder of distastful origin. It refers to those liberals that live in a fantasy world. Just by writing the term down I loose all credibility, however the commical and absurd style seeked is an important addition to the meaning. You might recall the Familly Guy episode where Stewie calls Brian a *******.  
 

@@ -6,12 +6,12 @@ categories: blog
 ---
 
 
-The new year is a time for reflection and introspection. 2016 was difficult in many aspects but it also was a great year. 
+The new year is a time for reflection and introspection. 2016 was difficult in many aspects but it also was a great year for me. I'll leave the media make the apology of 2016 and remind you how awful it was for the rest of the world. 
 I made strides in my quest to learn programming and development. 
-I owned my skills in Linux server adminsitration and also got a dog which I conveniently named Linux. 
+I owned my skills in Linux server administration and also got a dog which I conveniently named Linux. 
 I started photography and video editing.
 
-So today I write to you because I saw this post from an entrepreneur I very much respect, Richard Branson. 
+So today I write to you because I saw this post from an entrepreneur I very much respect, Sir Richard Branson. 
 He said: ["One tip for 2017, write it down"](https://www.virgin.com/richard-branson/my-one-tip-2017-write-it-down), so here I will write a few goals I have for 2017. 
 I have checked this post into version control so any modifications will be recorded. This is an incomplete list and may be adjusted along the way.
 
