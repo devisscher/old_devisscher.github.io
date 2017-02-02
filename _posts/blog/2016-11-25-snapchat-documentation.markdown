@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Snapchat documentation"
-date:   2016-02-02 11:29:04 -0400
+date:   2017-02-02 11:29:04 -0400
 categories: blog
 ---
 
