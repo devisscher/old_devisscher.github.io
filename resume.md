@@ -68,11 +68,11 @@ permalink: /resume/
       <h2>
       Personal projects and learning</h2>
       <dd>
-      <p>Build <a class="node" id="node">Node.js</a> and <a id="express" class="express">Express</a> blogs backed by <a id="mysql" class="mysql">MySQL</a> and <a id="mongodb" class="mongodb">MongoDB</a>. Build <a class="meteor" id="meteor">Meteor</a> websites with <a id="react" class="react">React</a> and <a class="mongodb">MongoDB</a>. Build <a class="drupal"
-      id="drupal">Drupal</a> and <a class="wp" id="wp">Wordpress</a> websites for clients, Corporate website and Amazon API dashboards. Build <a class="ruby" id="ruby">Ruby/Sinatra</a> <a id="html" class="htmlcss">CSS</a> element scrapper. Build
-      an <a id="angular" class="angular">Angular</a>, CSV parser. Build a <a class="ruby">RoR</a> Blog with a <a id="pgsql" class="pgsql">PostgreSQL</a> database. Build various one page <a class="htmlcss">html/CSS</a> websites for clients. Build <a id="jekyll"
-      class="jekyll">Jekyll</a> blogs and websites. Learn a bit of <a id="d3" class="d3">D3.js</a>. Run way too many <a class="aws" id="aws">AWS</a> instances on <a class="linux" id="linux">Linux AMI</a>'s, <a class="linux">Ubuntu</a>, or <a id="windows" class="windows">Windows Server</a>,
-      create a few really persistant RDS instances for <a id="ios" class="objective swift">iOS</a> API's. Deploy applications with <a id="heroku" class="heroku">Heroku</a>. Use <a class="bitbucket" id="bitbucket">Bitbucket</a> and <a class="git" id="git">Git</a>          as a versioning tool. Take many courses on Lynda.com.
+      <p>Build <a class="node" id="node">Node.js</a> and <a id="express" class="express">Express</a> applications backed by <a id="mysql" class="mysql">MySQL</a> and <a id="mongodb" class="mongodb">MongoDB</a>. Build <a class="meteor" id="meteor">Meteor</a> websites with <a id="react" class="react">React</a> and <a class="angular">Angular2</a>. Build <a class="drupal"
+      id="drupal">Drupal</a> and <a class="wp" id="wp">Wordpress</a> websites for clients and Corporate websites. Build <a class="ruby" id="ruby">Ruby/Sinatra</a> <a id="html" class="htmlcss">CSS</a> element scrapper. Build
+      an <a id="angular" class="angular">Angular</a>, CSV parser. Build <a class="ruby">RoR</a> blog with a <a id="pgsql" class="pgsql">PostgreSQL</a> database. Build various one page <a class="htmlcss">html/CSS</a> websites for clients. Build <a id="jekyll"
+      class="jekyll">Jekyll</a> static blogs and websites. Learn <a id="d3" class="d3">D3.js</a>. Run many <a class="aws" id="aws">AWS</a> instances on <a class="linux" id="linux">Linux AMI</a>'s, or <a id="windows" class="windows">Windows Server AMI</a>'s,
+      create really persistant RDS instances for <a id="ios" class="objective swift">iOS</a> application programing interfaces. Deploy applications with <a id="heroku" class="heroku">Heroku</a>. Use <a class="git" id="git">Git</a> and <a id="svn" class="svn">SVN</a> as versioning tools. Take many courses on Lynda.com.
     </p>
     </dd>
   </dl>

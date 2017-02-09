@@ -14,4 +14,4 @@ Technologies used:
 - D3.js
 
 
-[Check it out ](http://trips.tdevisscher.ca)
+[Check it out ](https://trips.tdevisscher.ca)

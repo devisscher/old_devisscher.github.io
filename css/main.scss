@@ -3,10 +3,12 @@
 ---
 @charset "utf-8";
 
-
-
+@font-face {
+    font-family: "HelveticaCondensed";
+   	src: url("/assets/fonts/Helvetica-Condensed.otf") format("opentype");
+}
 // Our variables
-$base-font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-family: "HelveticaCondensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
