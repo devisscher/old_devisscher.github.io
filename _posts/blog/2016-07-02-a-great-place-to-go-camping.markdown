@@ -4,11 +4,11 @@ title:  "A great place to go camping!"
 date:   2016-07-02 11:29:04 -0400
 categories: blog
 ---
+I recently had the opportunity to visit a great camping spot ⛺. The place is called Lac Poisson Blanc and for those of you who may be interested here are some details about the weekend. 
+
 
 ![Lac Poisson Blanc](/assets/lacpoissonblanc.jpg)
 
-
-I recently had the opportunity to visit a great camping spot ⛺. The place is called Lac Poisson Blanc and for those of you who may be interested here are some details about the weekend. 
 
 First of all, this lake is accessible through the south and the north parts of the lake. There are no dwellings on the shores of this lake which makes it a perfect place to find peace and quiet! It's unlike those overpopulated lakes you'll find in Quebec if you know what I mean. You may reserve your spot or take a chance and go look for a designated free campsite. You will need a canoe and to be ready for a few hours of paddling, piece of cake!
 
