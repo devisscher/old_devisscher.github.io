@@ -6,10 +6,10 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: T. Devisscher
+title: Thomas Devisscher
 email: info@tdevisscher.ca
 description: > # this means to ignore newlines until "baseurl:"
-  This is my little corner of the web. You'll find all kinds of fun posts about me and what I do.
+  This is my blog, my little corner of the web. You'll find all kinds of fun posts about me and what I do.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://tdevisscher.ca" # the base hostname & protocol for your site
 twitter_username: devisscher
