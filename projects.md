@@ -13,7 +13,7 @@ permalink: /projects/
           <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
           </h2>
-          <p>{{ post.excerpt }}</p>
+          <p>{{ post.excerpt | strip_html | truncatewords:15 }}</p>
         </li>
       {% endif %}
     {% endfor %}
