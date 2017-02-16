@@ -12,7 +12,7 @@ When I'm not programming or outdoors cycling, skiing, camping, canoing or walkin
 <div class="row">
 <div class="col-6">
 	<div class="card">
-		<img class="card-img-top" src="/assets/thomas.jpeg" alt="Card image cap">
+		<img class="card-img-top" src="/assets/thomas.jpg" alt="Card image cap">
 		<div class="card-block">
 			<h4 class="card-title">Me</h4>
 			<!-- <a href="#" class="btn btn-primary">More action</a> -->
