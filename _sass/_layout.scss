@@ -150,20 +150,18 @@
     color:#fff;
 }
 .toggle {
-    z-index: 3;
+    z-index: 4;
     position:fixed;
-    color: #fff;
+    color: $brand-color;
     top:5px;
-    right:0;
-    bottom: 0;
     left: 10px;
+    right:0;
     font-size: 30px;
 }
 .toggle-hidden {
     z-index: 3;
     position:fixed;
     color: $text-color;
-    left: 10px;
     font-size: 30px;
 }
 
