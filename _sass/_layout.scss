@@ -110,7 +110,7 @@
 */
 
 .site-header {
-    z-index:1;
+    z-index:3;
     top:0px;
     border-top: 5px solid $brand-color;
     border-bottom: 1px solid $grey-color-light;
@@ -159,7 +159,7 @@
     font-size: 30px;
 }
 .toggle-hidden {
-    z-index: 3;
+    z-index: 4;
     position:fixed;
     color: $text-color;
     font-size: 30px;
@@ -169,68 +169,68 @@
     display:none;
 }
 
-.site-nav {
-    float: right;
-    line-height: 56px;
-    .menu-icon {
-        display: none;
-    }
-    .page-link {
-        color: $text-color;
-        line-height: $base-line-height;
-        // Gaps between nav items, but not on the last one
-        &:not(:last-child) {
-            margin-right: 20px;
-        }
-        &:hover {
-            color: $brand-color;
-            border-bottom: 2px solid $brand-color;
-            -webkit-transition: .5s; /* Safari */
-            transition: .5s;
-        }
-    }
-    @include media-query($on-palm) {
-        position: absolute;
-        top: 9px;
-        right: $spacing-unit / 2;
-        background-color: $background-color;
-        border: none;
-        border-radius: 5px;
-        text-align: right;
-        .menu-icon {
-            display: block;
-            float: right;
-            width: 36px;
-            height: 26px;
-            line-height: 0;
-            padding-top: 5px;
-            text-align: center;
-            > svg {
-                width: 18px;
-                height: 15px;
-                path {
-                    fill: $grey-color-dark;
-                }
-            }
-        }
-        .trigger {
-            clear: both;
-            display: none;
-        }
-        &:hover .trigger {
-            display: block;
-            padding-bottom: 5px;
-        }
-        .page-link {
-            display: block;
-            padding: 5px 10px;
-            &:not(:last-child) {
-                margin-right: 0;
-            }
-            margin-left: 20px;
-        }
-    }
-}
+// .site-nav {
+//     float: right;
+//     line-height: 56px;
+//     .menu-icon {
+//         display: none;
+//     }
+//     .page-link {
+//         color: $text-color;
+//         line-height: $base-line-height;
+//         // Gaps between nav items, but not on the last one
+//         &:not(:last-child) {
+//             margin-right: 20px;
+//         }
+//         &:hover {
+//             color: $brand-color;
+//             border-bottom: 2px solid $brand-color;
+//             -webkit-transition: .5s; /* Safari */
+//             transition: .5s;
+//         }
+//     }
+//     @include media-query($on-palm) {
+//         position: absolute;
+//         top: 9px;
+//         right: $spacing-unit / 2;
+//         background-color: $background-color;
+//         border: none;
+//         border-radius: 5px;
+//         text-align: right;
+//         .menu-icon {
+//             display: block;
+//             float: right;
+//             width: 36px;
+//             height: 26px;
+//             line-height: 0;
+//             padding-top: 5px;
+//             text-align: center;
+//             > svg {
+//                 width: 18px;
+//                 height: 15px;
+//                 path {
+//                     fill: $grey-color-dark;
+//                 }
+//             }
+//         }
+//         .trigger {
+//             clear: both;
+//             display: none;
+//         }
+//         &:hover .trigger {
+//             display: block;
+//             padding-bottom: 5px;
+//         }
+//         .page-link {
+//             display: block;
+//             padding: 5px 10px;
+//             &:not(:last-child) {
+//                 margin-right: 0;
+//             }
+//             margin-left: 20px;
+//         }
+//     }
+// }
 
 
 /**
