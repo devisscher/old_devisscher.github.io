@@ -116,6 +116,19 @@
     // Positioning context for the mobile navigation icon
     position: relative;
 }
+.site-header-fixed {
+    z-index:1000;
+    top:0px;
+    border-top: 5px solid $brand-color;
+    border-bottom: 1px solid $grey-color-light;
+    min-height: 56px;
+    // Positioning context for the mobile navigation icon
+    position: fixed;
+    background-color: #fff;
+    width: 100%;
+    -webkit-transition: .5s; /* Safari */
+    transition: .5s;
+}
 
 .site-title {
     font-size: 26px;
@@ -142,6 +155,12 @@
         // Gaps between nav items, but not on the last one
         &:not(:last-child) {
             margin-right: 20px;
+        }
+        &:hover {
+            color: $brand-color;
+            border-bottom: 2px solid $brand-color;
+            -webkit-transition: .5s; /* Safari */
+            transition: .5s;
         }
     }
     @include media-query($on-palm) {

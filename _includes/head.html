@@ -2,22 +2,36 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-<link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
   ga('create', 'UA-66078527-1', 'auto');
   ga('send', 'pageview');
-
-</script>
-<link rel="icon" type="image/png" href="https://img.tdevisscher.ca/images/tdevisscher.ca/48e37f64-2905-2132-fac5-a7c7c67f32ba.png">
-</head>
+  </script>
+  <link rel="icon" type="image/png" href="https://img.tdevisscher.ca/images/tdevisscher.ca/48e37f64-2905-2132-fac5-a7c7c67f32ba.png" />
+    <script>
+    $(window).scroll(function(){
+    var wScroll = $(this).scrollTop();
+    console.log(wScroll);
+    if (wScroll >= 300) {
+    $('.site-header').addClass("site-header-fixed");
+    } else {
+    $('.site-header').removeClass("site-header-fixed");
+    }
+    
+    });
+    $(function() {
+      $('nav a[href^="/' + location.pathname.split("/")[1] + '"]').addClass('active');
+    });
+    </script>
+  </head>
