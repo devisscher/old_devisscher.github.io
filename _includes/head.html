@@ -21,17 +21,30 @@
   <link rel="icon" type="image/png" href="https://img.tdevisscher.ca/images/tdevisscher.ca/48e37f64-2905-2132-fac5-a7c7c67f32ba.png" />
     <script>
     $(window).scroll(function(){
-    var wScroll = $(this).scrollTop();
-    console.log(wScroll);
-    if (wScroll >= 300) {
-    $('.site-header').addClass("site-header-fixed");
-    } else {
-    $('.site-header').removeClass("site-header-fixed");
-    }
-    
+      var wScroll = $(this).scrollTop();
+      console.log(wScroll);
+      if (wScroll >= 300) {
+        $('.site-header').addClass("site-header-fixed");
+      } else {
+        $('.site-header').removeClass("site-header-fixed");
+      }
     });
     $(function() {
       $('nav a[href^="/' + location.pathname.split("/")[1] + '"]').addClass('active');
     });
+    $(document).ready(function(){
+      $(".sidebar").addClass("sidebar-hidden");
+      $("#toggle").addClass("toggle-hidden");  
+      $("#toggle").click(function(){
+        if ($(".sidebar").hasClass("sidebar-hidden")) {
+          $(".sidebar").removeClass("sidebar-hidden");
+          $("#toggle").removeClass("toggle-hidden"); 
+        } else {
+          $(".sidebar").addClass("sidebar-hidden");
+          $("#toggle").addClass("toggle-hidden"); 
+        }
+      });
+    });
+    
     </script>
   </head>

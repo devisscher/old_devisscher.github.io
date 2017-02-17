@@ -110,14 +110,7 @@
 */
 
 .site-header {
-    border-top: 5px solid $brand-color;
-    border-bottom: 1px solid $grey-color-light;
-    min-height: 56px;
-    // Positioning context for the mobile navigation icon
-    position: relative;
-}
-.site-header-fixed {
-    z-index:1000;
+    z-index:1;
     top:0px;
     border-top: 5px solid $brand-color;
     border-bottom: 1px solid $grey-color-light;
@@ -141,6 +134,41 @@
     &:visited {
         color: $grey-color-dark;
     }
+}
+.sidebar {
+    z-index: 2;
+    position: fixed;
+    padding-top:70px;
+    width: 150px;
+    font-size: 16px;
+    top: 0;
+    bottom: 0;
+    left:0;
+    background-color: $text-color;
+}
+.sidebar > li > a {
+    color:#fff;
+}
+.toggle {
+    z-index: 3;
+    position:fixed;
+    color: #fff;
+    top:5px;
+    right:0;
+    bottom: 0;
+    left: 10px;
+    font-size: 30px;
+}
+.toggle-hidden {
+    z-index: 3;
+    position:fixed;
+    color: $text-color;
+    left: 10px;
+    font-size: 30px;
+}
+
+.sidebar-hidden {
+    display:none;
 }
 
 .site-nav {
