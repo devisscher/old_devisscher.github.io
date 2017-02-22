@@ -1,7 +1,8 @@
 ---
 layout: post
+comments: true
 title:  "Such power is not easily contained."
-date:   2016-09-16 11:29:04 -0400
+date:   2016-09-16T09:00:00Z
 categories: blog
 ---
 J. Robert Oppenheimer's words after seeing the first Nuclear explosion.

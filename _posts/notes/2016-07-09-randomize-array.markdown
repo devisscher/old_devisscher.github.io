@@ -1,7 +1,8 @@
 ---
 layout: post
+comments: true
 title:  "Randomized array"
-date:   2016-07-09 11:29:04 -0400
+date:   2016-07-09T09:00:00Z
 categories: notes
 ---
 

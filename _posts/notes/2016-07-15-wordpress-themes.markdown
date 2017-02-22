@@ -1,7 +1,8 @@
 ---
 layout: post
+comments: true
 title:  "Creating a Wordpress theme, cheats."
-date:   2016-07-29 11:29:04 -0400
+date:   2016-07-29T09:00:00Z
 categories: notes
 ---
 

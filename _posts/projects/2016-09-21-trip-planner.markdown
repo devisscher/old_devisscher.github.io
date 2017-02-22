@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Trip planner"
-date:   2016-09-27 11:29:04 -0400
+date:   2016-09-27T09:00:00Z
 categories: project
 duration: 3 months
 ---

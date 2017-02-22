@@ -9,7 +9,7 @@ permalink: /posts/
     {% for post in site.posts %}
       {% if post.categories contains 'blog' %}
         <li>
-          <span class="post-meta1"></span>
+          <span class="post-meta">{{ post.date | date_to_long_string }}</span>
           <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
           </h2>

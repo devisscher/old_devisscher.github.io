@@ -1,7 +1,8 @@
 ---
 layout: post
+comments: true
 title:  "Expand dropdown menus that have active children"
-date:   2016-09-19 11:29:04 -0400
+date:   2016-09-19T09:00:00Z
 categories: notes
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Hobbescient website"
-date:   2016-10-22 11:29:04 -0400
+date:   2016-10-22T09:00:00Z
 categories: project
 duration: 2 months
 ---

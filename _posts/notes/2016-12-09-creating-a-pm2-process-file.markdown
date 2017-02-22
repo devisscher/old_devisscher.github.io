@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "Creating a pm2 process file"
 date:   2016-12-08 9:29:04 -0400
 categories: notes

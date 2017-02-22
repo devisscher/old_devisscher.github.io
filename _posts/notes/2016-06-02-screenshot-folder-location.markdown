@@ -1,7 +1,8 @@
 ---
 layout: post
+comments: true
 title:  "Send screenshots to a different location."
-date:   2016-06-02 11:29:04 -0400
+date:   2016-06-02T09:00:00Z
 categories: notes
 ---
 

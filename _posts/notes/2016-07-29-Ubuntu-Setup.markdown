@@ -1,7 +1,8 @@
 ---
 layout: post
+comments: true
 title:  "Setup Ubuntu for Node.js and PHP"
-date:   2016-07-29 11:29:04 -0400
+date:   2016-07-29T09:00:00Z
 categories: notes
 ---
 

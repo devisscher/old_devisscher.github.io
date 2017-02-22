@@ -1,7 +1,8 @@
 ---
 layout: post
+comments: true
 title:  "Pedipalp"
-date:   2016-11-25 11:29:04 -0400
+date:   2016-11-25T09:00:00Z
 categories: blog
 ---
 

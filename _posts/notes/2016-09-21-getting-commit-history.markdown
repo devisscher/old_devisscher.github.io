@@ -1,7 +1,8 @@
 ---
 layout: post
+comments: true
 title:  "Get commit history"
-date:   2016-09-21 11:29:04 -0400
+date:   2016-09-21T09:00:00Z
 categories: notes
 ---
 

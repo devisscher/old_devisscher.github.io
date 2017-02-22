@@ -1,7 +1,8 @@
 ---
 layout: post
+comments: true
 title:  "The Last Question - Isaac Asimov"
-date:   2016-11-15 11:29:04 -0400
+date:   2016-11-15T09:00:00Z
 categories: blog
 ---
 The last question was asked for the first time, half in jest, on May 21, 2061, at a time when humanity first stepped into the light. The question came about as a result of a five dollar bet over highballs, and it happened this way:

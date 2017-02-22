@@ -1,7 +1,8 @@
 ---
 layout: post
+comments: true
 title:  "John Muir - Quote"
-date:   2017-01-29 11:29:04 -0400
+date:   2017-01-29T09:00:00Z
 categories: blog
 ---
 

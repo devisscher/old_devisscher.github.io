@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Fautquejtedise.ca"
-date:   2017-02-01 11:29:04 -0400
+date:   2017-02-01T09:00:00Z
 categories: project
 duration: 2 months
 ---

@@ -1,7 +1,8 @@
 ---
 layout: post
+comments: true
 title:  "Customize your bash prompt"
-date:   2017-01-13 11:29:04 -0400
+date:   2017-01-13T09:00:00Z
 categories: notes
 ---
 

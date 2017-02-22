@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Peer Review of Manuscripts Application"
-date:   2016-07-01 11:29:04 -0400
+date:   2016-07-01T09:00:00Z
 categories: project
 duration: 3 months
 ---

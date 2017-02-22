@@ -1,7 +1,8 @@
 ---
 layout: post
+comments: true
 title:  "SSL for GH Pages"
-date:   2016-12-01 11:29:04 -0400
+date:   2016-12-01T09:00:00Z
 categories: blog
 ---
 

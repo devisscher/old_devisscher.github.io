@@ -1,7 +1,8 @@
 ---
 layout: post
+comments: true
 title:  "Administering users on Linux"
-date:   2017-02-15 11:29:04 -0400
+date:   2017-02-15T09:00:00Z
 categories: notes
 ---
 
