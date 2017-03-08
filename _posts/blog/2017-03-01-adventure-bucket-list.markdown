@@ -8,7 +8,7 @@ categories: blog
 
 Here is an incomplete list of adventures I would like to go on:
 
-<input type="checkbox" /> [HOW TO PAY A HELICOPTER TO DROP YOU OFF SOME PLACE REALLY INCONVENIENT AND THEN SPEND 9 DAYS TRYING TO GET BACK TO YOUR CAR](https://mountainwagon.com/the-blog/2017/1/12/how-to-pay-a-helicopter-to-drop-you-off-some-place-really-inconvenient-and-then-spend-9-days-trying-to-get-back-to-your-car)
+<input type="checkbox" /> [Bugaboo Rogers Traverse](https://mountainwagon.com/the-blog/2017/1/12/how-to-pay-a-helicopter-to-drop-you-off-some-place-really-inconvenient-and-then-spend-9-days-trying-to-get-back-to-your-car)
 
 <input type="checkbox" /> [Lake Superior Coastal Trail - Pukaskwa National Park](http://www.pc.gc.ca/pn-np/on/pukaskwa/activ/hiking-randonnees/b.aspx)
 
