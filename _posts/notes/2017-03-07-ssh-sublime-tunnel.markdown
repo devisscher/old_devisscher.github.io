@@ -10,7 +10,10 @@ You can easily use Sublime over ssh with the help of rsub.
 
 First install rsub package in sublime. ``` ctrl + shift + p ``` and search ```rsub```. Then go to your terminal on your local machine and open your ssh config ``` nano ~/.ssh/config ```. Inside of it, add the following block.
 
-<script src="https://gist.github.com/devisscher/97ff9fa31d1adbda9543742855370d59.js"></script>
+```
+Host your_server_hostname.com
+    RemoteForward 52698 127.0.0.1:52698
+```
 
 Save that file and now ssh into your remote server to install rsub/rmate.
 
