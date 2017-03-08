@@ -14,7 +14,10 @@ First install rsub package in sublime. ``` ctrl + shift + p ``` and search ```rs
 
 Save that file and now ssh into your remote server to install rsub/rmate.
 
-``` sudo wget -O /usr/local/bin/rsub https://raw.github.com/aurora/rmate/master/rmate ```
+``` 
+sudo wget -O /usr/local/bin/rsub https://raw.github.com/aurora/rmate/master/rmate 
+
+```
 
 Make the script you just downloaded executable:
 
