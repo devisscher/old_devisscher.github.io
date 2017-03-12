@@ -15,8 +15,9 @@ categories: blog
 To complete the ascension of every peak in the Adirondacks. I am aiming to accomplish this incredible feat by the age of 30. May the odds be ever in my favor! 😎
 
 Chart of the 46 peaks ordered by highest altitude.
+<div style="overflow-x: auto;">
 <svg width="650" height="600"></svg>
-
+</div>
 Table of the 46 peaks ordered by smallest. Including those that have been completed.
 <div id="peaks_table">
 	<table class="table"> 
