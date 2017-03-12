@@ -89,7 +89,7 @@ var y = d3.scaleLinear()
     .rangeRound([height, 0]);
 
 var z = d3.scaleOrdinal()
-    .range(["#CDDC39", "#388E3C"]);
+    .range(["#CDDC39", "#CDDC39"]);
 var div = d3.select("body").append("div")   
     .attr("class", "tooltip")               
     .style("opacity", 0);
@@ -162,17 +162,17 @@ d3.csv("/assets/46Peaks.csv", function(d, i, columns) {
     .enter().append("g")
       .attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; })
 
-  // side rectangles
-  legend.append("rect")
-      .attr("x", width - 19)
-      .attr("width", 19)
-      .attr("height", 19)
-      .attr("fill", z);
-  // side text
-  legend.append("text")
-      .attr("x", width - 24)
-      .attr("y", 9.5)
-      .attr("dy", "0.32em")
-      .text(function(d) { return d; })
+  // // side rectangles
+  // legend.append("rect")
+  //     .attr("x", width - 19)
+  //     .attr("width", 19)
+  //     .attr("height", 19)
+  //     .attr("fill", z);
+  // // side text
+  // legend.append("text")
+  //     .attr("x", width - 24)
+  //     .attr("y", 9.5)
+  //     .attr("dy", "0.32em")
+  //     .text(function(d) { return d; })
 });
 </script>
