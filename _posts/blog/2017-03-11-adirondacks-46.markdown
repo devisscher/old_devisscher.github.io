@@ -128,7 +128,7 @@ d3.csv("/assets/46Peaks.csv", function(d, i, columns) {
       .attr("fill", "#000")
       .attr("font-weight", "bold")
       .attr("text-anchor", "start")
-      .text("Elevation");
+      .text("Altitude");
   
   var legend = g.append("g")
       .attr("font-family", "sans-serif")
