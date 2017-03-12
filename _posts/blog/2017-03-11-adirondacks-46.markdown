@@ -35,8 +35,8 @@ Table of the 46 peaks ordered by smallest. Including those that have been comple
 	<thead>
 		<th>Status</th>
 		<th>Name of mountain</th>
-		<th>Elevation</th>
-		<th>Δ Elevation</th>
+		<th>Altitude</th>
+		<th>Δ Altitude</th>
 	</thead>
 	<tbody class="mountain_data">
 	</tbody>
