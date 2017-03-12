@@ -124,7 +124,7 @@ d3.csv("/assets/46Peaks.csv", function(d, i, columns) {
             div.transition()        
                 .duration(200)      
                 .style("opacity", .9);      
-            div .html(d.data.Name + "<br/> Summit: "  + d.data.total + "<br/> Δ Altitude: "  + d.data['Delta Altitude'])  
+            div .html(d.data.Name + "<br/> Summit: "  + d.data.total + "<br/> Elevation Gain: "  + d.data['Delta Altitude'])  
                 .style("left", (d3.event.pageX) + "px")     
                 .style("top", (d3.event.pageY - 28) + "px");    
             })       
