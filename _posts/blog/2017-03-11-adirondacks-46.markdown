@@ -89,7 +89,7 @@ var y = d3.scaleLinear()
     .rangeRound([height, 0]);
 
 var z = d3.scaleOrdinal()
-    .range(["#CDDC39", "#CDDC39"]);
+    .range(["#388E3C", "#388E3C"]);
 var div = d3.select("body").append("div")   
     .attr("class", "tooltip")               
     .style("opacity", 0);
