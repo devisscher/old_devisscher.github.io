@@ -15,3 +15,7 @@ Here is an incomplete list of adventures I would like to go on:
 <input type="checkbox" /> [John Muir Trail](http://www.pcta.org/discover-the-trail/john-muir-trail/)
 
 <input type="checkbox" /> [Gaspésie](https://www.sepaq.com/dotAsset/2956953.pdf)
+
+<input type="checkbox" /> [Adirondacks 46 Peaks](https://tdevisscher.ca/)
+
+... More to come
