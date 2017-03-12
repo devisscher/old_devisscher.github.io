@@ -23,7 +23,7 @@ div.tooltip {
   pointer-events: none;         
 }
 </style>
-To complete the ascension of every peak in the Adirondacks. I am aiming to accomplish this incredible feat by the age of 30. May the odds be ever in my favor! 😎
+To complete the ascension of every peak in the Adirondacks. I am aiming to accomplish this by the age of 30. "The mountains are calling and I must go." 😎
 
 Chart of the 46 peaks ordered by highest altitude.
 <div style="overflow-x: auto;">
