@@ -4,8 +4,8 @@
   {% include head.html %}
 
   <body>
-  <div id="page-url">{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}</div>
-  <div id="page-id">{{ page.title }}</div>
+  <div hidden id="page-url">{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}</div>
+  <div hidden id="page-id">{{ page.title }}</div>
   <div id="banner_imgs" style="background-image: url(https://source.unsplash.com/category/technology); background-size: cover; background-position: center; height: 300px" />
   </div>
     {% include header.html %}
@@ -52,7 +52,7 @@
             console.log(data);
         });
      var images = ['image1.jpg', 'image2.jpg', 'image3.jpg', 'image4.jpg', 'image5.jpg', 'image6.jpg', 'image7.jpg', 'image8.jpg', 'image9.jpg', 'image10.jpg', 'image11.jpg', 'image12.jpg', 'image13.jpg', 'image14.jpg', 'image15.jpg', 'image16.jpg', 'image17.jpg']; 
-      $('#banner_imgs').css({'background-image': 'url(../assets/bannerimages/' + images[Math.floor(Math.random() * images.length)] + ')'});
+      $('#banner_imgs').css({'background-image': 'url(/assets/bannerimages/' + images[Math.floor(Math.random() * images.length)] + ')'});
       </script>
     </body>
 
