@@ -10,7 +10,18 @@ categories: blog
 .axis .domain {
   
 }
-
+div.tooltip {   
+  position: absolute;           
+  text-align: center;           
+  width: 100px;                  
+  height: 46px;                 
+  padding: 2px;             
+  font: 12px sans-serif;        
+  background: white;   
+  border: 0px;      
+  border-radius: 8px;           
+  pointer-events: none;         
+}
 </style>
 To complete the ascension of every peak in the Adirondacks. I am aiming to accomplish this incredible feat by the age of 30. May the odds be ever in my favor! 😎
 
@@ -78,7 +89,10 @@ var y = d3.scaleLinear()
     .rangeRound([height, 0]);
 
 var z = d3.scaleOrdinal()
-    .range(["#98abc5", "#8a89a6"]);
+    .range(["#CDDC39", "#388E3C"]);
+var div = d3.select("body").append("div")   
+    .attr("class", "tooltip")               
+    .style("opacity", 0);
 
 d3.csv("/assets/46Peaks.csv", function(d, i, columns) {
   for (i = 1, t = 0; i < columns.length; ++i) t += d[columns[i]] = +d[columns[i]];
@@ -105,7 +119,15 @@ d3.csv("/assets/46Peaks.csv", function(d, i, columns) {
       .attr("x", function(d) { return x(d.data.Name); })
       .attr("y", function(d) { return y(d[1]); })
       .attr("height", function(d) { return y(d[0]) - y(d[1]); })
-      .attr("width", x.bandwidth());
+      .attr("width", x.bandwidth())
+      .on("mouseover", function(d) {      
+            div.transition()        
+                .duration(200)      
+                .style("opacity", .9);      
+            div .html(d.data.Name + "<br/> Summit: "  + d.data.total + "<br/> Δ Altitude: "  + d.data['Delta Altitude'])  
+                .style("left", (d3.event.pageX) + "px")     
+                .style("top", (d3.event.pageY - 28) + "px");    
+            })       
 
   g.append("g")
       .attr("class", "axis")
