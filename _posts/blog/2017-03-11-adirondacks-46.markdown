@@ -13,7 +13,7 @@ categories: blog
 div.tooltip {   
   position: absolute;           
   text-align: center;           
-  width: 100px;                  
+  width: 150px;                  
   height: 46px;                 
   padding: 2px;             
   font: 12px sans-serif;        
