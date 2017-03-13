@@ -2,6 +2,7 @@
 layout: page
 title: Notes
 permalink: /notes/
+menu: main
 ---
 <p>These are some notes that I collect as I am working on different projects.</p>
 <br>

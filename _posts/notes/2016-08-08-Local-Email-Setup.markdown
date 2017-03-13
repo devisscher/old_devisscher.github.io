@@ -4,6 +4,7 @@ comments: true
 title:  "Test sending mail"
 date:   2016-08-08T09:00:00Z
 categories: notes
+tags: smtp testing
 ---
 Start a simple smtp server to test sending emails with your local machine.
 

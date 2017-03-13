@@ -4,6 +4,7 @@ comments: true
 title:  "Send screenshots to a different location."
 date:   2016-06-02T09:00:00Z
 categories: notes
+tags: mac
 ---
 
 On a Mac, by default screenshots are sent towards your Desktop. This can become cluttered so if you ever want to change the folder location here is what you can do: 

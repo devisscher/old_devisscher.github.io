@@ -4,6 +4,7 @@ comments: true
 title:  "Creating a pm2 process file"
 date:   2016-12-08 9:29:04 -0400
 categories: notes
+tags: node.js linux pm2
 ---
 
 Often times when maintaining your server or making new deployments you need to restart your application. Luckily, pm2 is a process manager which can accelerate your app startup process.

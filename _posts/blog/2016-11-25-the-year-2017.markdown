@@ -4,6 +4,7 @@ comments: true
 title:  "Resolutions for 2017"
 date:   2017-01-01T09:00:00Z
 categories: blog
+tags: resolutions new-year
 ---
 The new year is a time for reflection and introspection. 2016 was difficult in many aspects but it also was a great year for me. I'll leave the media make the apology of 2016 and remind you how awful it was for the rest of the world. 
 I made strides in my quest to learn programming and development. 

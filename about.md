@@ -2,6 +2,7 @@
 layout: page
 title: About
 permalink: /about/
+menu: main
 ---
 Welcome to my website. You will find a collection of notes, articles, thoughts, and projects that I have worked on.
 

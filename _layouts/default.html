@@ -41,7 +41,9 @@
     <nav class="sidebar">
         {% for my_page in site.pages %}
           {% if my_page.title %}
-          <li><a class="" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
+            {% if my_page.menu == 'main' %}
+              <li><a class="" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
+            {% endif %}
           {% endif %}
         {% endfor %}
     </nav>

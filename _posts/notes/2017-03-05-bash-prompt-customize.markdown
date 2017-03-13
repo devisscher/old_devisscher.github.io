@@ -4,6 +4,7 @@ comments: true
 title:  "Customize your bash prompt"
 date:   2017-01-13T09:00:00Z
 categories: notes
+tags: bash
 ---
 
 You can change your bash prompt in terminal by editing the ```.bash_profile``` file.

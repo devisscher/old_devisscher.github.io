@@ -4,6 +4,7 @@ comments: true
 title:  "Such power is not easily contained."
 date:   2016-09-16T09:00:00Z
 categories: blog
+tags: AI Nuclear
 ---
 J. Robert Oppenheimer's words after seeing the first Nuclear explosion.
 

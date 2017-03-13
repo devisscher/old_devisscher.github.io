@@ -4,6 +4,7 @@ comments: true
 title:  "Use Sublime over SSH"
 date:   2017-03-06T09:00:00Z
 categories: notes
+tags: ssh sublime
 ---
 
 You can easily use Sublime over ssh with the help of rsub. 

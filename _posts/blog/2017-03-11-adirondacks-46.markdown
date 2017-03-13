@@ -4,6 +4,7 @@ comments: true
 title:  "The Adirondacks 46 peaks TODO list"
 date:   2017-03-11T09:00:00Z
 categories: blog
+tags: adventure TODO camping trips
 ---
 <style>
 

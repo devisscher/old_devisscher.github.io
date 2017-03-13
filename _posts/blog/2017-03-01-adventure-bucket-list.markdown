@@ -4,6 +4,7 @@ comments: true
 title:  "Adventure Bucket List"
 date:   2017-03-01T09:00:00Z
 categories: blog 
+tags: adventure TODO camping trips
 ---
 
 Here is an incomplete list of adventures I would like to go on:

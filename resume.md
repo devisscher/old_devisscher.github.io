@@ -2,6 +2,7 @@
 layout: resume
 title: Resume
 permalink: /resume/
+menu: main
 ---
 <div class="container">
   <div class="panel">

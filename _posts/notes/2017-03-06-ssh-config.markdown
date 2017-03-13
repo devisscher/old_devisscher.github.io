@@ -4,6 +4,7 @@ comments: true
 title:  "Shortcuts for SSH Config"
 date:   2017-03-06T09:00:00Z
 categories: notes
+tags: ssh
 ---
 
 Add a config block to your SSH config to log in to your servers quicker.

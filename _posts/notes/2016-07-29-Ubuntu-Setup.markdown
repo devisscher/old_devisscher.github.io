@@ -4,6 +4,7 @@ comments: true
 title:  "Setup Ubuntu for Node.js and PHP"
 date:   2016-07-29T09:00:00Z
 categories: notes
+tags: linux ubuntu node.js apache mysql mongodb
 ---
 
 This handy guide will help you through setting up an Ubuntu Server for running Node.js applications.

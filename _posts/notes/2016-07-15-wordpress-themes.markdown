@@ -4,6 +4,7 @@ comments: true
 title:  "Creating a Wordpress theme, cheats."
 date:   2016-07-29T09:00:00Z
 categories: notes
+tags: wordpress themes
 ---
 
 It's simple to create a WordPress theme. Here is a simple cheat sheet I use to get started.

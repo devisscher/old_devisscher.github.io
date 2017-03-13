@@ -4,6 +4,7 @@ comments: true
 title:  "The Last Question - Isaac Asimov"
 date:   2016-11-15T09:00:00Z
 categories: blog
+tags: literature sci-fi
 ---
 The last question was asked for the first time, half in jest, on May 21, 2061, at a time when humanity first stepped into the light. The question came about as a result of a five dollar bet over highballs, and it happened this way:
 Alexander Adell and Bertram Lupov were two of the faithful attendants of Multivac. As well as any human beings could, they knew what lay behind the cold, clicking, flashing face -- miles and miles of face -- of that giant computer. They had at least a vague notion of the general plan of relays and circuits that had long since grown past the point where any single human could possibly have a firm grasp of the whole.

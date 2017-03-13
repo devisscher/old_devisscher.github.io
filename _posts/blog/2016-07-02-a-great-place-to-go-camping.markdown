@@ -4,6 +4,7 @@ comments: true
 title:  "A great place to go camping!"
 date:   2016-07-02T09:00:00Z
 categories: blog
+tags: camping outaouais canoe
 ---
 I recently had the opportunity to visit a great camping spot ⛺. The place is called Lac Poisson Blanc and for those of you who may be interested here are some details about the weekend. 
 

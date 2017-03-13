@@ -2,6 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
+menu: main
 ---
 <br>
 <div class="home">
