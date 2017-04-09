@@ -3,4 +3,8 @@ set -e # halt script on error
 
 bundle exec jekyll build
 npm install -g gulp
+npm install -g gulp-uncss
+npm install -g gulp-sass
+npm install -g gulp-concat
+npm install -g gulp-cssnano
 gulp
