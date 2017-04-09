@@ -2,38 +2,36 @@
 <html lang="en">
   {% include head.html %}
   <head>
-    <!-- Basic Page Needs
-    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <meta charset="utf-8">
-    <title>Your page title here :)</title>
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <!-- Mobile Specific Metas
-    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- FONT
-    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
-    <!-- CSS
-    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/skeleton.css">
-    <!-- Favicon
-    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link rel="icon" type="image/png" href="https://img.tdevisscher.ca/images/tdevisscher.ca/48e37f64-2905-2132-fac5-a7c7c67f32ba.png">
     
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="https://img.tdevisscher.ca/images/tdevisscher.ca/48e37f64-2905-2132-fac5-a7c7c67f32ba.png">
+    <style type="text/css" media="screen">
+    .outer {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    }
+    .middle {
+    display: table-cell;
+    vertical-align: middle;
+    }
+    .inner {
+    margin-left: auto;
+    margin-right: auto;
+    padding:25px;
+    width: 500px;
+    }
+    </style>
   </head>
   <body>
-    <!-- Primary Page Layout
-    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <div class="container">
-      <div class="row">
-        <div class="one-half column" style="margin-top: 25%">
+    <div class="outer">
+      <div class="middle">
+        <div class="inner">
           {{content}}
         </div>
       </div>
     </div>
-    <!-- End Document
-    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    
   </body>
 </html>
