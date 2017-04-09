@@ -1,10 +1,10 @@
 ---
 layout: post
 comments: true
-title:  "Localhost tricks: https and more"
+title:  "Localhost trick: SSL"
 date:   2017-04-08T09:00:00Z
 categories: notes
-tags: ssh sublime
+tags: localhost ssl keychain certificates
 ---
 Have you ever tested a website locally and run into the annoying warning Google Chrome provides when a site is insecure? Well the thing is, you know it is secure, it's running on your machine. You can create a certificate yourself and trust it yourself to avoid this warning and run a secure site on localhost. This is really useful too if you are doing iOS development and would like to test hitting API endpoints from your phone. Apple doesn't allow you to make requests to non secure servers. It is recommended you always keep things secure.
 
