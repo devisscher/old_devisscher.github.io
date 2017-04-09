@@ -45,3 +45,45 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 ga('create', 'UA-66078527-1', 'auto');
 ga('send', 'pageview');
+
+// Resume page
+
+jQuery(document).ready(function() {
+  var offset = 220;
+  var duration = 500;
+  jQuery(window).scroll(function() {
+      if (jQuery(this).scrollTop() > offset) {
+          jQuery('.back-to-top').fadeIn(duration);
+      } else {
+          jQuery('.back-to-top').fadeOut(duration);
+      }
+  });
+  
+  jQuery('.back-to-top').click(function(event) {
+      event.preventDefault();
+      jQuery('html, body').animate({scrollTop: 0}, duration);
+      return false;
+  })
+});
+
+  $(document).ready(function() {
+    function scrollToAnchor(myClass){
+    var aTag = $("."+myClass);
+    $('html,body').animate({scrollTop: aTag.offset().top},'slow');
+    }
+
+
+    $("a, button").click(function() {
+
+      var myClass = $(this).attr('class').replace('button ', '');
+      scrollToAnchor(myClass);
+      $("."+myClass).addClass("intro")
+        .delay(2000)
+        .queue(function() {
+          $(this).removeClass("intro");
+          $(this).dequeue();
+
+        });
+
+    });
+});
