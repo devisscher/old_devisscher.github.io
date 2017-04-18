@@ -6,10 +6,8 @@
   <body>
   <div hidden id="page-url">{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}</div>
   <div hidden id="page-id">{{ page.title }}</div>
-  <div id="banner_imgs" style="background-size: cover; background-position: center; height: 300px" />
-  </div>
-    {% include header.html %}
-
+  <div id="banner_imgs" style="background-size: cover; background-position: center; height: 300px"> </div>
+  {% include header.html %}
     <div class="page-content">
       <div class="wrapper">
         {{ content }}

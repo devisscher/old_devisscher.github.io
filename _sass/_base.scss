@@ -27,9 +27,17 @@ p.muted {
     color: #888;
 }
 
-intro {
-    background-color: red;
-}
+.intro {
+    color: white;
+     background: #2a7ae2; 
+    }
+
+    .poste {
+          font-weight: bold;
+    }
+    .center {
+      text-align: center;
+    }
 /**
  * Basic styling
  */
@@ -429,19 +437,21 @@ h6 {
     }
 }
 
-@media (min-width: 544px) {
-    .card-columns {
-        -webkit-column-count: 3;
-        -moz-column-count: 3;
-        column-count: 3;
-        -webkit-column-gap: 1.25rem;
-        -moz-column-gap: 1.25rem;
-        column-gap: 1.25rem;
-    }
-    .card-columns .card {
-        display: inline-block;
-        width: 100%;
-    }
+
+@media (min-width: 576px) {
+  .card-columns {
+    -webkit-column-count: 3;
+       -moz-column-count: 3;
+            column-count: 3;
+    -webkit-column-gap: 1.25rem;
+       -moz-column-gap: 1.25rem;
+            column-gap: 1.25rem;
+  }
+  .card-columns .card {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 0.75rem;
+  }
 }
 
 

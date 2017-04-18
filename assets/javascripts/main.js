@@ -71,10 +71,7 @@ jQuery(document).ready(function() {
     var aTag = $("."+myClass);
     $('html,body').animate({scrollTop: aTag.offset().top},'slow');
     }
-
-
     $("a, button").click(function() {
-
       var myClass = $(this).attr('class').replace('button ', '');
       scrollToAnchor(myClass);
       $("."+myClass).addClass("intro")

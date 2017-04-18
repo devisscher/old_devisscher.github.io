@@ -18,3 +18,9 @@ export PS1="td:\w $ "
 ```
 
 Restart terminal and your prompt will be changed. There are many different profile configurations available.
+
+Resources: 
+
+* ![https://github.com/djl/vcprompt](https://github.com/djl/vcprompt)
+* ![https://code.tutsplus.com/tutorials/how-t-customize-the-command-prompt--net-20586](https://code.tutsplus.com/tutorials/how-t-customize-the-command-prompt--net-20586)
+* ![http://www.justgoscha.com/programming/2014/03/22/Pimping-my-terminal.html](http://www.justgoscha.com/programming/2014/03/22/Pimping-my-terminal.html)
