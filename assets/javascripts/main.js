@@ -1,3 +1,13 @@
+  $(function() {
+    $(".preload").fadeOut(1000, function() {
+        $(".content").fadeIn(500);        
+    });
+  });
+  $(document).ready(function(){
+  $(".hamburger").click(function(){
+    $(this).toggleClass("is-active");
+  });
+});
   // Defer loading styles
   var loadDeferredStyles = function() {
     var addStylesNode = document.getElementById("deferred-styles");
@@ -13,8 +23,9 @@
 
 // Add active class on active link
 $(function() {
-  $('nav a[href^="/' + location.pathname.split("/")[1] + '"]').addClass('active');
+  $('nav a[href^="/' + location.pathname.split("/")[1] + '"]').parent('li').addClass('active');
 });
+
 // Toggle sidebar on click
 $(document).ready(function(){
   $(".sidebar").addClass("sidebar-hidden");

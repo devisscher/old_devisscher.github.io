@@ -1,52 +1,61 @@
 <!DOCTYPE html>
 <html>
-
   {% include head.html %}
-
   <body>
-  <div hidden id="page-url">{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}</div>
-  <div hidden id="page-id">{{ page.title }}</div>
-  <div id="banner_imgs" style="background-size: cover; background-position: center; height: 300px"> </div>
-  {% include header.html %}
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-        {% if page.comments %}
-        <div id="disqus_thread"></div>
-      
-      <script>
-      var pgurl = document.getElementById("page-url").innerHTML;
-      var pgid = document.getElementById("page-id").innerHTML;
-
-      var disqus_config = function () {
-      this.page.url = pgurl;  
-      this.page.identifier = pgid; 
-      }
-      console.log("get disqus");
-      (function() { 
-      var d = document, s = d.createElement('script');
-      s.src = '//tdevisscherca.disqus.com/embed.js';
-      s.setAttribute('data-timestamp', +new Date());
-      (d.head || d.body).appendChild(s);
-      })();
-      </script>
-      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-        {% endif %}
+    <div class="preload">
+      <div class="outer">
+        <div class="middle">
+          <div class="" style="width: 100px;margin-left: auto;margin-right: auto;">
+            <img src="https://i.imgur.com/KUJoe.gif" />
+          </div>
+        </div>
       </div>
     </div>
+    <div class="content">
+      <div hidden id="page-url">{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}</div>
+      <div hidden id="page-id">{{ page.title }}</div>
+      <div id="banner_imgs" style="background-size: cover; background-position: center; height: 300px"> </div>
+      {% include header.html %}
+        <div class="page-content">
+          <div class="wrapper">
+            {{ content }}
+            {% if page.comments %}
+            <div id="disqus_thread"></div>
+          
+          <script>
+          var pgurl = document.getElementById("page-url").innerHTML;
+          var pgid = document.getElementById("page-id").innerHTML;
 
-    {% include footer.html %}
-    <nav class="sidebar">
-        {% for my_page in site.pages %}
-          {% if my_page.title %}
-            {% if my_page.menu == 'main' %}
-              <li><a class="" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
+          var disqus_config = function () {
+          this.page.url = pgurl;  
+          this.page.identifier = pgid; 
+          }
+          console.log("get disqus");
+          (function() { 
+          var d = document, s = d.createElement('script');
+          s.src = '//tdevisscherca.disqus.com/embed.js';
+          s.setAttribute('data-timestamp', +new Date());
+          (d.head || d.body).appendChild(s);
+          })();
+          </script>
+          <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
             {% endif %}
-          {% endif %}
-        {% endfor %}
-        <img style="position:fixed; bottom:5px; left:5px;" src="https://travis-ci.org/devisscher/devisscher.github.io.svg?branch=master"/>
-    </nav>
+          </div>
+        </div>
 
-    </body>
-
+        {% include footer.html %}
+        <nav class="sidebar">
+          <ul>
+            {% for my_page in site.pages %}
+              {% if my_page.title %}
+                {% if my_page.menu == 'main' %}
+                  <li><a class="" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
+                {% endif %}
+              {% endif %}
+            {% endfor %}
+          </ul>
+          <img style="position:fixed; bottom:5px; left:5px;" src="https://travis-ci.org/devisscher/devisscher.github.io.svg?branch=master"/>
+        </nav>
+    </div>
+  </body>
 </html>

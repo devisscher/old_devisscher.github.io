@@ -16,12 +16,12 @@ When I'm not programming or outdoors cycling, skiing, camping, canoing or walkin
 		<div class="card-block">
 			<h4 class="card-title">Code</h4>
 			<p>I spend countless hours building applications and websites for work and for fun. I focus on JavaScript frameworks and dabble into Python, PHP and .NET and Swift. I enjoy front-end libraries such as React and Angular2.</p>
-			<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/2000px-Node.js_logo.svg.png' style="width:20%; padding:3px;"/>
-			<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Python.svg/2000px-Python.svg.png' style="width:20%; padding:3px;"/>
-			<img src='https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png' style="width:20%; padding:3px;"/>
-			<img src='http://coenraets.org/present/react/img/react.png' style="width:20%; padding:3px;"/>
-			<img src='https://angular.io/resources/images/logos/angular/angular.svg' style="width:20%; padding:3px;"/>
-			<img src='https://upload.wikimedia.org/wikipedia/fr/6/63/Logo_Apple_Swift.png' style="width:20%; padding:3px;"/>
+			<img src='/assets/about_images/nodejs.png' style="width:20%; padding:3px;"/>
+			<img src='/assets/about_images/py.png' style="width:20%; padding:3px;"/>
+			<img src='/assets/about_images/js.png' style="width:20%; padding:3px;"/>
+			<img src='/assets/about_images/react.png' style="width:20%; padding:3px;"/>
+			<img src='/assets/about_images/ng.svg' style="width:20%; padding:3px;"/>
+			<img src='/assets/about_images/swift.png' style="width:20%; padding:3px;"/>
 
 			
 		</div>
@@ -30,15 +30,15 @@ When I'm not programming or outdoors cycling, skiing, camping, canoing or walkin
 		<div class="card-block">
 			<h4 class="card-title">Tools</h4>
 			<p>I use the best tools for the job. I favor modern build systems like Webpack and Gulp that way my applications are well maintained and my code is organized. Deploying is made easy by using GitHub along with Travis CI. I manage Linux servers running Nginx, MongoDB and SQL databases and ensure they remain secure.</p>
-			<img src='https://pbs.twimg.com/profile_images/676630166190166017/UYxw-HcD.png' style="width:20%; padding:3px;"/>
-			<img src='https://image.flaticon.com/icons/png/512/25/25231.png' style="width:20%; padding:3px;"/>
-			<img src='https://cdn.travis-ci.org/images/logos/TravisCI-Mascot-1-20feeadb48fc2492ba741d89cb5a5c8a.png' style="width:20%; padding:3px;"/>
-			<img src='https://camo.githubusercontent.com/d18f4a7a64244f703efcb322bf298dcb4ca38856/68747470733a2f2f7765627061636b2e6a732e6f72672f6173736574732f69636f6e2d7371756172652d6269672e737667' style="width:20%; padding:3px;"/>
-			<img src='https://raw.githubusercontent.com/gulpjs/artwork/master/gulp-2x.png' style="width:20%; padding:3px;"/>
-			<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/2000px-Tux.svg.png' style="width:20%; padding:3px;"/>
-			<img src='https://pbs.twimg.com/profile_images/567774844322713600/tYoVju31.png' style="width:20%; padding:3px;"/>
-			<img src='https://t0.rbxcdn.com/453ec73a9363d1b35dc9cfd595a1cd0a' style="width:20%; padding:3px;"/>
-			<img src='https://upload.wikimedia.org/wikipedia/en/thumb/6/62/MySQL.svg/1200px-MySQL.svg.png' style="width:20%; padding:3px;"/>
+			<img src='/assets/about_images/vs.png' style="width:20%; padding:3px;"/>
+			<img src='/assets/about_images/gh.png' style="width:20%; padding:3px;"/>
+			<img src='/assets/about_images/travis.png' style="width:20%; padding:3px;"/>
+			<img src='/assets/about_images/webpack.svg' style="width:20%; padding:3px;"/>
+			<img src='/assets/about_images/gulp.png' style="width:20%; padding:3px;"/>
+			<img src='/assets/about_images/tux.png' style="width:20%; padding:3px;"/>
+			<img src='/assets/about_images/nginx.png' style="width:20%; padding:3px;"/>
+			<img src='/assets/about_images/mongo.png' style="width:20%; padding:3px;"/>
+			<img src='/assets/about_images/mysql.png' style="width:20%; padding:3px;"/>
 			
 		</div>
 	</div>

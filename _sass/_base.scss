@@ -26,18 +26,16 @@ p.muted {
     font-size: 12px;
     color: #888;
 }
-
 .intro {
     color: white;
-     background: #2a7ae2; 
-    }
-
-    .poste {
-          font-weight: bold;
-    }
-    .center {
-      text-align: center;
-    }
+    background: #2a7ae2; 
+}
+.poste {
+    font-weight: bold;
+}
+.center {
+    text-align: center;
+}
 /**
  * Basic styling
  */
@@ -144,7 +142,27 @@ h5,
 h6 {
     font-weight: $base-font-weight;
 }
-
+.outer {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    }
+    .middle {
+    display: table-cell;
+    vertical-align: middle;
+    }
+    .inner {
+        margin-left: auto;
+        margin-right: auto;
+        padding:25px;
+        width: 500px;
+    }
+.content {display:none;}
+.preload { 
+    width:100px;
+    height: 100px;
+}
 
 /*Cards */
 
