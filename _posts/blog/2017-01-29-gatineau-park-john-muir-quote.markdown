@@ -7,7 +7,7 @@ categories: blog
 tags: literature conservation quotes
 ---
 
-In every walk with nature one receives far more than he seeks.
+> In every walk with nature one receives far more than he seeks.
 
 
 ![file](/assets/post_images/gatineau_park_dogs_john_muir.jpg)
