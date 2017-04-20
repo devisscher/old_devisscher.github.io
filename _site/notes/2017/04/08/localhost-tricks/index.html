@@ -81,12 +81,24 @@
 
 <ol>
   <li>Open Key Chain Access, open the Keychain Access menu and select: <code class="highlighter-rouge">Certificate Assistant -&gt; New Certificate</code>.</li>
-  <li>Name it <code class="highlighter-rouge">localhost</code>. Choose <code class="highlighter-rouge">Self Signed Root</code> and <code class="highlighter-rouge">SSL Server</code>. Click continue and accept the warning about self-signed certificates.
-<img src="/assets/post_images/localhost_tricks1.png" alt="Certificate Assistant Window" title="Certificate Assistant" /></li>
-  <li>You should see your certificate in the list of certificates: 
-<img src="/assets/post_images/localhost_tricks2.png" alt="Certificate Assistant Window" title="Certificate Assistant" /></li>
-  <li>Double click on it and choose always trust in the first dropdown menu:
-<img src="/assets/post_images/localhost_tricks3.png" alt="Certificate Assistant Window" title="Certificate Assistant" /></li>
+  <li>Name it <code class="highlighter-rouge">localhost</code>. Choose <code class="highlighter-rouge">Self Signed Root</code> and <code class="highlighter-rouge">SSL Server</code>. Click continue and accept the warning about self-signed certificates.</li>
+</ol>
+
+<p><img src="/assets/post_images/localhost_tricks1.png" alt="Certificate Assistant Window" title="Certificate Assistant" /></p>
+
+<ol>
+  <li>You should see your certificate in the list of certificates:</li>
+</ol>
+
+<p><img src="/assets/post_images/localhost_tricks2.png" alt="Certificate Assistant Window" title="Certificate Assistant" /></p>
+
+<ol>
+  <li>Double click on it and choose always trust in the first dropdown menu:</li>
+</ol>
+
+<p><img src="/assets/post_images/localhost_tricks3.png" alt="Certificate Assistant Window" title="Certificate Assistant" /></p>
+
+<ol>
   <li>Export your certificate into a known location. Right click on the certificate from within Keychain Access and choose <code class="highlighter-rouge">Export "localhost"</code>. Save it as <code class="highlighter-rouge">Certificates.p12</code>. You don’t have to enter a password here. We will need to convert this to a key pair later. (Note: To use it in your website, you could create a folder on your machine, I created mine at <code class="highlighter-rouge">/Users/tdev/local-ssl</code>). This is easy to get to so I can tell my sites to use this certificate quickly.</li>
   <li>Open terminal and make your way to the certificates folder you created in #5. <code class="highlighter-rouge">cd /Users/tdev/local-ssl</code>.</li>
   <li>Run the following command to create a .pem file.

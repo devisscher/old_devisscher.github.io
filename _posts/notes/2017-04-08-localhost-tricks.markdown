@@ -12,11 +12,17 @@ Let's get started, shall we?
 
 1. Open Key Chain Access, open the Keychain Access menu and select: ``` Certificate Assistant -> New Certificate ```.
 2. Name it ``` localhost ```. Choose ``` Self Signed Root ``` and ``` SSL Server ```. Click continue and accept the warning about self-signed certificates.
+
 ![Certificate Assistant Window](/assets/post_images/localhost_tricks1.png "Certificate Assistant")
+
 3. You should see your certificate in the list of certificates: 
+
 ![Certificate Assistant Window](/assets/post_images/localhost_tricks2.png "Certificate Assistant")
+
 4. Double click on it and choose always trust in the first dropdown menu:
+
 ![Certificate Assistant Window](/assets/post_images/localhost_tricks3.png "Certificate Assistant")
+
 5. Export your certificate into a known location. Right click on the certificate from within Keychain Access and choose ``` Export "localhost" ```. Save it as ``` Certificates.p12 ```. You don't have to enter a password here. We will need to convert this to a key pair later. (Note: To use it in your website, you could create a folder on your machine, I created mine at ``` /Users/tdev/local-ssl ```). This is easy to get to so I can tell my sites to use this certificate quickly. 
 6. Open terminal and make your way to the certificates folder you created in #5. ``` cd /Users/tdev/local-ssl ```.
 7. Run the following command to create a .pem file.
