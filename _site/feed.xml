@@ -6,13 +6,13 @@
 </description>
     <link>http://tdevisscher.ca/</link>
     <atom:link href="http://tdevisscher.ca/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 20 Apr 2017 14:34:10 -0400</pubDate>
-    <lastBuildDate>Thu, 20 Apr 2017 14:34:10 -0400</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 14:35:58 -0400</pubDate>
+    <lastBuildDate>Thu, 20 Apr 2017 14:35:58 -0400</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
         <title>Compressing Images Using ImageMagick</title>
-        <description>&lt;p&gt;Google page insights is a nice tool to review your websites performance. But you may end up realizing that you need to make some changes to your website. One of those changes Google might want you to make is optimize your images. To do so, we can use a cool little tool call ImageMagick. The instructions apply to users on a Mac computer.&lt;/p&gt;
+        <description>&lt;p&gt;&lt;a href=&quot;https://developers.google.com/speed/pagespeed/insights/&quot;&gt;Google Page Insights&lt;/a&gt; is a nice tool to review your websites performance. But you may end up realizing that you need to make some changes to your website. One of those changes Google might want you to make is optimize your images. To do so, we can use a cool little tool call ImageMagick. The instructions apply to users on a Mac computer.&lt;/p&gt;
 
 &lt;p&gt;First we need to install ImageMagick. I strongly recommend installing it with Homebrew.&lt;/p&gt;
 
@@ -38,7 +38,7 @@ convert image.png -resize 50x50 -quality 95 -depth 8 image_50x50.png
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
-&lt;p&gt;That’s all! Now go test your website with Page Insights again.&lt;/p&gt;
+&lt;p&gt;That’s all! Now go test your website with &lt;a href=&quot;https://developers.google.com/speed/pagespeed/insights/&quot;&gt;Google Page Insights&lt;/a&gt; again.&lt;/p&gt;
 </description>
         <pubDate>Thu, 20 Apr 2017 05:00:00 -0400</pubDate>
         <link>http://tdevisscher.ca/notes/2017/04/20/compressing-images-using-imagemagick/</link>
