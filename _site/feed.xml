@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Thomas Devisscher</title>
+    <description>This is my blog, my little corner of the web. You&#39;ll find all kinds of fun posts about me and what I do.
+</description>
+    <link>http://tdevisscher.ca/</link>
+    <atom:link href="http://tdevisscher.ca/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 20 Apr 2017 12:19:32 -0400</pubDate>
+    <lastBuildDate>Thu, 20 Apr 2017 12:19:32 -0400</lastBuildDate>
+    <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>Localhost trick: SSL</title>
+        <description>&lt;p&gt;Have you ever tested a website locally and run into the annoying warning Google Chrome provides when a site is insecure? Well the thing is, you know it is secure, it’s running on your machine. You can create a certificate yourself and trust it yourself to avoid this warning and run a secure site on localhost. This is really useful too if you are doing iOS development and would like to test hitting API endpoints from your phone. Apple doesn’t allow you to make requests to non secure servers. It is recommended you always keep things secure.&lt;/p&gt;
+
+&lt;p&gt;Let’s get started, shall we?&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Open Key Chain Access, open the Keychain Access menu and select: &lt;code class=&quot;highlighter-rouge&quot;&gt;Certificate Assistant -&amp;gt; New Certificate&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;Name it &lt;code class=&quot;highlighter-rouge&quot;&gt;localhost&lt;/code&gt;. Choose &lt;code class=&quot;highlighter-rouge&quot;&gt;Self Signed Root&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;SSL Server&lt;/code&gt;. Click continue and accept the warning about self-signed certificates.
+&lt;img src=&quot;/assets/post_images/localhost_tricks1.png&quot; alt=&quot;Certificate Assistant Window&quot; title=&quot;Certificate Assistant&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;You should see your certificate in the list of certificates: 
+&lt;img src=&quot;/assets/post_images/localhost_tricks2.png&quot; alt=&quot;Certificate Assistant Window&quot; title=&quot;Certificate Assistant&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;Double click on it and choose always trust in the first dropdown menu:
+&lt;img src=&quot;/assets/post_images/localhost_tricks3.png&quot; alt=&quot;Certificate Assistant Window&quot; title=&quot;Certificate Assistant&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;Export your certificate into a known location. Right click on the certificate from within Keychain Access and choose &lt;code class=&quot;highlighter-rouge&quot;&gt;Export &quot;localhost&quot;&lt;/code&gt;. Save it as &lt;code class=&quot;highlighter-rouge&quot;&gt;Certificates.p12&lt;/code&gt;. You don’t have to enter a password here. We will need to convert this to a key pair later. (Note: To use it in your website, you could create a folder on your machine, I created mine at &lt;code class=&quot;highlighter-rouge&quot;&gt;/Users/tdev/local-ssl&lt;/code&gt;). This is easy to get to so I can tell my sites to use this certificate quickly.&lt;/li&gt;
+  &lt;li&gt;Open terminal and make your way to the certificates folder you created in #5. &lt;code class=&quot;highlighter-rouge&quot;&gt;cd /Users/tdev/local-ssl&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;Run the following command to create a .pem file.
+&lt;code class=&quot;highlighter-rouge&quot;&gt;openssl pkcs12 -in Certificates.p12 -out Certificates.pem -nodes&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;If you didn’t enter a password when exporting the certificates then you don’t need to enter a password when you are prompted to. Just press enter and continue.&lt;/li&gt;
+  &lt;li&gt;Now you need to split the &lt;code class=&quot;highlighter-rouge&quot;&gt;Certificates.pem&lt;/code&gt; into 2 files: &lt;code class=&quot;highlighter-rouge&quot;&gt;cert.pem&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;key.pem&lt;/code&gt;. Look at the contents of the Certificates file and you should see something like this. Take the certificate and its key and copy each of them into separate files.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/post_images/localhost_tricks4.png&quot; alt=&quot;Certificate Assistant Window&quot; title=&quot;Certificate Assistant&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Once that is done, you can start using these certificates for testing sites locally. You should see this in your browser and life is good! 😄&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/post_images/localhost_tricks5.png&quot; alt=&quot;Certificate Assistant Window&quot; title=&quot;Certificate Assistant&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Enjoy!&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 08 Apr 2017 05:00:00 -0400</pubDate>
+        <link>http://tdevisscher.ca/notes/2017/04/08/localhost-tricks/</link>
+        <guid isPermaLink="true">http://tdevisscher.ca/notes/2017/04/08/localhost-tricks/</guid>
+        
+        <category>localhost</category>
+        
+        <category>SSL</category>
+        
+        <category>keychain</category>
+        
+        <category>certificates</category>
+        
+        
+        <category>notes</category>
+        
+      </item>
+    
+      <item>
+        <title>The Adirondacks 46 peaks TODO list</title>
+        <description>&lt;style&gt;
+
+.axis .domain {
+  
+}
+div.tooltip {   
+  position: absolute;           
+  text-align: center;           
+  width: 150px;                  
+  height: 46px;                 
+  padding: 2px;             
+  font: 12px sans-serif;        
+  background: white;   
+  border: 0px;      
+  border-radius: 8px;           
+  pointer-events: none;         
+}
+&lt;/style&gt;
+
+&lt;p&gt;To complete the ascension of every peak in the Adirondacks. I am aiming to accomplish this by the age of 30. “The mountains are calling and I must go.” 😎&lt;/p&gt;
+
+&lt;p&gt;Chart of the 46 peaks ordered by highest altitude.&lt;/p&gt;
+&lt;div style=&quot;overflow-x: auto;&quot;&gt;
+&lt;svg width=&quot;650&quot; height=&quot;600&quot;&gt;&lt;/svg&gt;
+&lt;/div&gt;
+&lt;p&gt;Table of the 46 peaks ordered by smallest. Including those that have been completed.&lt;/p&gt;
+&lt;div id=&quot;peaks_table&quot;&gt;
+	&lt;table class=&quot;table&quot;&gt; 
+	&lt;thead&gt;
+		&lt;th&gt;Status&lt;/th&gt;
+		&lt;th&gt;Name of mountain&lt;/th&gt;
+		&lt;th&gt;Altitude&lt;/th&gt;
+		&lt;th&gt;Elevation Gain&lt;/th&gt;
+	&lt;/thead&gt;
+	&lt;tbody class=&quot;mountain_data&quot;&gt;
+	&lt;/tbody&gt;
+	&lt;/table&gt;
+&lt;/div&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;https://cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.4.3/tabletop.min.js&quot;&gt;&lt;/script&gt;
+
+&lt;script src=&quot;https://d3js.org/d3.v4.min.js&quot;&gt;&lt;/script&gt;
+
+&lt;script&gt;
+var peaks;
+var d3Data = [];
+window.onload = function () { init() };
+var public_spreadsheet_url = &#39;https://docs.google.com/spreadsheets/d/13yxqxJADhS-zE_YPxFFpRx-uAMejuWpQEMTgDoQps_g/pubhtml&#39;;
+	function init() {
+			Tabletop.init({
+			key: public_spreadsheet_url,
+			callback: showInfo
+		})
+	}
+	function showInfo(table_data, tabletop) {
+		//alert(&quot;Successfully processed!&quot;)
+		peaks = table_data.Sheet1.elements;
+		for (var i = peaks.length - 1; i &gt;= 0; i--) {
+			$( &quot;.mountain_data&quot; ).append(&#39;\
+				&lt;tr&gt;\
+				&lt;td class=&quot;mountain_check&quot;&gt;&#39;+ peaks[i].Done +&#39;&lt;/td&gt;\
+				&lt;td class=&quot;mountain_name&quot;&gt;&#39;+ peaks[i].Name + &#39;&lt;/td&gt;\
+				&lt;td class=&quot;mountain_elevation&quot;&gt;&#39;+ peaks[i].Elevation +&#39;&lt;/td&gt;\
+				&lt;td class=&quot;mountain_delta&quot;&gt;&#39;+ peaks[i].Gain +&#39;&lt;/td&gt;\
+				&lt;/tr&gt;&#39;);
+		}
+
+}
+&lt;/script&gt;
+
+&lt;script src=&quot;https://d3js.org/d3.v4.min.js&quot;&gt;&lt;/script&gt;
+
+&lt;script&gt;
+var svg = d3.select(&quot;svg&quot;),
+    margin = {top: 20, right: 20, bottom: 100, left: 40},
+    width = +svg.attr(&quot;width&quot;) - margin.left - margin.right,
+    height = +svg.attr(&quot;height&quot;) - margin.top - margin.bottom,
+    g = svg.append(&quot;g&quot;)
+    	.attr(&quot;transform&quot;, &quot;translate(&quot; + margin.left + &quot;,&quot; + margin.top + &quot;)&quot;);
+
+var x = d3.scaleBand()
+    .rangeRound([0, width])
+    .paddingInner(0.05)
+    .align(0.1);
+
+var y = d3.scaleLinear()
+    .rangeRound([height, 0]);
+
+var z = d3.scaleOrdinal()
+    .range([&quot;#388E3C&quot;, &quot;#388E3C&quot;]);
+var div = d3.select(&quot;body&quot;).append(&quot;div&quot;)   
+    .attr(&quot;class&quot;, &quot;tooltip&quot;)               
+    .style(&quot;opacity&quot;, 0);
+
+d3.csv(&quot;/assets/46Peaks.csv&quot;, function(d, i, columns) {
+  for (i = 1, t = 0; i &lt; columns.length; ++i) t += d[columns[i]] = +d[columns[i]];
+  d.total = t;
+  return d;
+}, function(error, data) {
+  if (error) throw error;
+
+  var keys = data.columns.slice(1);
+
+  data.sort(function(a, b) { return b.total - a.total; });
+  x.domain(data.map(function(d) { return d.Name; }));
+  y.domain([0, d3.max(data, function(d) { return d.total; })]).nice();
+  z.domain(keys);
+
+  g.append(&quot;g&quot;)
+    .selectAll(&quot;g&quot;)
+    .data(d3.stack().keys(keys)(data))
+    .enter().append(&quot;g&quot;)
+      .attr(&quot;fill&quot;, function(d) { return z(d.key); })
+    .selectAll(&quot;rect&quot;)
+    .data(function(d) { return d; })
+    .enter().append(&quot;rect&quot;)
+      .attr(&quot;x&quot;, function(d) { return x(d.data.Name); })
+      .attr(&quot;y&quot;, function(d) { return y(d[1]); })
+      .attr(&quot;height&quot;, function(d) { return y(d[0]) - y(d[1]); })
+      .attr(&quot;width&quot;, x.bandwidth())
+      .on(&quot;mouseover&quot;, function(d) {      
+            div.transition()        
+                .duration(200)      
+                .style(&quot;opacity&quot;, .9);      
+            div .html(d.data.Name + &quot;&lt;br/&gt; Summit: &quot;  + d.data.total + &quot;&lt;br/&gt; Elevation Gain: &quot;  + d.data[&#39;Delta Altitude&#39;])  
+                .style(&quot;left&quot;, (d3.event.pageX) + &quot;px&quot;)     
+                .style(&quot;top&quot;, (d3.event.pageY - 28) + &quot;px&quot;);    
+            })       
+
+  g.append(&quot;g&quot;)
+      .attr(&quot;class&quot;, &quot;axis&quot;)
+      .attr(&quot;transform&quot;, &quot;translate(0,&quot; + height + &quot;)&quot;)
+      .call(d3.axisBottom(x))
+   	  .selectAll(&quot;text&quot;)
+    	.attr(&quot;y&quot;, 0)
+    	.attr(&quot;x&quot;, 9)
+    	.attr(&quot;dy&quot;, &quot;.35em&quot;)
+    	.attr(&quot;transform&quot;, &quot;rotate(60)&quot;)
+    	.style(&quot;text-anchor&quot;, &quot;start&quot;)
+
+
+  g.append(&quot;g&quot;)
+      .attr(&quot;class&quot;, &quot;axis&quot;)
+      .call(d3.axisLeft(y).ticks(null, &quot;s&quot;))
+    .append(&quot;text&quot;)
+      .attr(&quot;x&quot;, 2)
+      .attr(&quot;y&quot;, y(y.ticks().pop()) + 0.5)
+      .attr(&quot;dy&quot;, &quot;0.32em&quot;)
+      .attr(&quot;fill&quot;, &quot;#000&quot;)
+      .attr(&quot;font-weight&quot;, &quot;bold&quot;)
+      .attr(&quot;text-anchor&quot;, &quot;start&quot;)
+      .text(&quot;Altitude&quot;);
+  
+  var legend = g.append(&quot;g&quot;)
+      .attr(&quot;font-family&quot;, &quot;sans-serif&quot;)
+      .attr(&quot;font-size&quot;, 10)
+      .attr(&quot;text-anchor&quot;, &quot;end&quot;)
+    .selectAll(&quot;g&quot;)
+    .data(keys.slice().reverse())
+    .enter().append(&quot;g&quot;)
+      .attr(&quot;transform&quot;, function(d, i) { return &quot;translate(0,&quot; + i * 20 + &quot;)&quot;; })
+
+  // // side rectangles
+  // legend.append(&quot;rect&quot;)
+  //     .attr(&quot;x&quot;, width - 19)
+  //     .attr(&quot;width&quot;, 19)
+  //     .attr(&quot;height&quot;, 19)
+  //     .attr(&quot;fill&quot;, z);
+  // // side text
+  // legend.append(&quot;text&quot;)
+  //     .attr(&quot;x&quot;, width - 24)
+  //     .attr(&quot;y&quot;, 9.5)
+  //     .attr(&quot;dy&quot;, &quot;0.32em&quot;)
+  //     .text(function(d) { return d; })
+});
+&lt;/script&gt;
+
+</description>
+        <pubDate>Sat, 11 Mar 2017 04:00:00 -0500</pubDate>
+        <link>http://tdevisscher.ca/blog/2017/03/11/adirondacks-46/</link>
+        <guid isPermaLink="true">http://tdevisscher.ca/blog/2017/03/11/adirondacks-46/</guid>
+        
+        <category>adventure</category>
+        
+        <category>TODO</category>
+        
+        <category>camping</category>
+        
+        <category>trips</category>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+      <item>
+        <title>Use Sublime over SSH</title>
+        <description>&lt;p&gt;You can easily use Sublime over ssh with the help of rsub.&lt;/p&gt;
+
+&lt;p&gt;First install rsub package in sublime. &lt;code class=&quot;highlighter-rouge&quot;&gt;ctrl + shift + p&lt;/code&gt; and search &lt;code class=&quot;highlighter-rouge&quot;&gt;rsub&lt;/code&gt;. Then go to your terminal on your local machine and open your ssh config &lt;code class=&quot;highlighter-rouge&quot;&gt;nano ~/.ssh/config&lt;/code&gt;. Inside of it, add the following block.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Host your_server_hostname.com
+    RemoteForward 52698 127.0.0.1:52698
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Save that file and now ssh into your remote server to install rsub/rmate.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo wget -O /usr/local/bin/rsub https://raw.github.com/aurora/rmate/master/rmate 
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Make the script you just downloaded executable:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo chmod +x /usr/local/bin/rsub&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Now when you want to edit a file at your server you can simply type:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;rsub ~/home/my-project/my-file.html&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Works like a charm and you get to use Sublime instead of Nano or Vim. 😆&lt;/p&gt;
+</description>
+        <pubDate>Mon, 06 Mar 2017 04:00:00 -0500</pubDate>
+        <link>http://tdevisscher.ca/notes/2017/03/06/ssh-sublime-tunnel/</link>
+        <guid isPermaLink="true">http://tdevisscher.ca/notes/2017/03/06/ssh-sublime-tunnel/</guid>
+        
+        <category>ssh</category>
+        
+        <category>sublime</category>
+        
+        
+        <category>notes</category>
+        
+      </item>
+    
+      <item>
+        <title>Shortcuts for SSH Config</title>
+        <description>&lt;p&gt;Add a config block to your SSH config to log in to your servers quicker.&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/devisscher/26f4e79d56fb2e9dc479bbf43d994b8b.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Then in your terminal type &lt;code class=&quot;highlighter-rouge&quot;&gt;ssh tdevisscher.ca&lt;/code&gt; or the shortcut you’ve named it as.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 06 Mar 2017 04:00:00 -0500</pubDate>
+        <link>http://tdevisscher.ca/notes/2017/03/06/ssh-config/</link>
+        <guid isPermaLink="true">http://tdevisscher.ca/notes/2017/03/06/ssh-config/</guid>
+        
+        <category>ssh</category>
+        
+        
+        <category>notes</category>
+        
+      </item>
+    
+      <item>
+        <title>Adventure Bucket List</title>
+        <description>&lt;p&gt;Here is an incomplete list of adventures I would like to go on:&lt;/p&gt;
+
+&lt;p&gt;&lt;input type=&quot;checkbox&quot; /&gt; &lt;a href=&quot;https://mountainwagon.com/the-blog/2017/1/12/how-to-pay-a-helicopter-to-drop-you-off-some-place-really-inconvenient-and-then-spend-9-days-trying-to-get-back-to-your-car&quot;&gt;Bugaboo Rogers Traverse&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;input type=&quot;checkbox&quot; /&gt; &lt;a href=&quot;http://www.pc.gc.ca/pn-np/on/pukaskwa/activ/hiking-randonnees/b.aspx&quot;&gt;Lake Superior Coastal Trail - Pukaskwa National Park&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;input type=&quot;checkbox&quot; /&gt; &lt;a href=&quot;http://www.pcta.org/discover-the-trail/john-muir-trail/&quot;&gt;John Muir Trail&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;input type=&quot;checkbox&quot; /&gt; &lt;a href=&quot;https://www.sepaq.com/dotAsset/2956953.pdf&quot;&gt;Gaspésie&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;input type=&quot;checkbox&quot; /&gt; &lt;a href=&quot;https://tdevisscher.ca/&quot;&gt;Adirondacks 46 Peaks&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;… More to come&lt;/p&gt;
+</description>
+        <pubDate>Wed, 01 Mar 2017 04:00:00 -0500</pubDate>
+        <link>http://tdevisscher.ca/blog/2017/03/01/adventure-bucket-list/</link>
+        <guid isPermaLink="true">http://tdevisscher.ca/blog/2017/03/01/adventure-bucket-list/</guid>
+        
+        <category>adventure</category>
+        
+        <category>TODO</category>
+        
+        <category>camping</category>
+        
+        <category>trips</category>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+      <item>
+        <title>Creating a symlink</title>
+        <description>&lt;p&gt;Use this command to create a symlink. Common in configuring NGINX or Apache servers.&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/devisscher/dc8c8732be7145c45a376d2774f14baf.js&quot;&gt;&lt;/script&gt;
+
+</description>
+        <pubDate>Wed, 22 Feb 2017 04:00:00 -0500</pubDate>
+        <link>http://tdevisscher.ca/notes/2017/02/22/symlink/</link>
+        <guid isPermaLink="true">http://tdevisscher.ca/notes/2017/02/22/symlink/</guid>
+        
+        <category>linux</category>
+        
+        
+        <category>notes</category>
+        
+      </item>
+    
+      <item>
+        <title>Administering users on Linux</title>
+        <description>&lt;p&gt;Often times you will need to create and edit users on your Linux server. You might need to create an FTP user or an email user. Whatever the reason might be here are the basics of managing users on a Linux based system.&lt;/p&gt;
+
+&lt;p&gt;Do these things as root.&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/devisscher/a9c43bd6da665f83c5b83770ee8d4ee3.js&quot;&gt;&lt;/script&gt;
+
+</description>
+        <pubDate>Wed, 15 Feb 2017 04:00:00 -0500</pubDate>
+        <link>http://tdevisscher.ca/notes/2017/02/15/linux-users/</link>
+        <guid isPermaLink="true">http://tdevisscher.ca/notes/2017/02/15/linux-users/</guid>
+        
+        <category>linux</category>
+        
+        
+        <category>notes</category>
+        
+      </item>
+    
+      <item>
+        <title>Snapchat documentation</title>
+        <description>&lt;p&gt;Please refer to the following in order to understand the emojis next to your Snapchat friends list.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://img.tdevisscher.ca/images/blog/0c1783cd-b369-f160-289b-17027a08a5c4.jpg&quot; alt=&quot;file&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 02 Feb 2017 04:00:00 -0500</pubDate>
+        <link>http://tdevisscher.ca/blog/2017/02/02/snapchat-documentation/</link>
+        <guid isPermaLink="true">http://tdevisscher.ca/blog/2017/02/02/snapchat-documentation/</guid>
+        
+        <category>social-media</category>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+      <item>
+        <title>Fautquejtedise.ca</title>
+        <description>&lt;p&gt;Just another Wordpress blog built for a local up and comming author/blogger.&lt;/p&gt;
+
+&lt;p&gt;Technologies used:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Wordpress&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://fautquejtedise.ca&quot; target=&quot;_blank&quot;&gt;Check it out&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 01 Feb 2017 04:00:00 -0500</pubDate>
+        <link>http://tdevisscher.ca/project/2017/02/01/fautquejtedise-ca/</link>
+        <guid isPermaLink="true">http://tdevisscher.ca/project/2017/02/01/fautquejtedise-ca/</guid>
+        
+        
+        <category>project</category>
+        
+      </item>
+    
+      <item>
+        <title>John Muir - Quote</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;In every walk with nature one receives far more than he seeks.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/post_images/gatineau_park_dogs_john_muir.jpg&quot; alt=&quot;file&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 29 Jan 2017 04:00:00 -0500</pubDate>
+        <link>http://tdevisscher.ca/blog/2017/01/29/gatineau-park-john-muir-quote/</link>
+        <guid isPermaLink="true">http://tdevisscher.ca/blog/2017/01/29/gatineau-park-john-muir-quote/</guid>
+        
+        <category>literature</category>
+        
+        <category>conservation</category>
+        
+        <category>quotes</category>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+  </channel>
+</rss>
