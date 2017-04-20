@@ -6,9 +6,54 @@
 </description>
     <link>http://tdevisscher.ca/</link>
     <atom:link href="http://tdevisscher.ca/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 20 Apr 2017 14:18:19 -0400</pubDate>
-    <lastBuildDate>Thu, 20 Apr 2017 14:18:19 -0400</lastBuildDate>
+    <pubDate>Thu, 20 Apr 2017 14:34:10 -0400</pubDate>
+    <lastBuildDate>Thu, 20 Apr 2017 14:34:10 -0400</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>Compressing Images Using ImageMagick</title>
+        <description>&lt;p&gt;Google page insights is a nice tool to review your websites performance. But you may end up realizing that you need to make some changes to your website. One of those changes Google might want you to make is optimize your images. To do so, we can use a cool little tool call ImageMagick. The instructions apply to users on a Mac computer.&lt;/p&gt;
+
+&lt;p&gt;First we need to install ImageMagick. I strongly recommend installing it with Homebrew.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+brew update
+
+brew install imagemagick
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Once that is done you are ready to convert images. To do so here are basic commands that you can run from the terminal. Feel free to tweak them and suggest even better optimizations!&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# Convert a jpeg
+
+convert -strip -interlace Plane -gaussian-blur 0.05 -quality 50% image.jpg image.jpg
+
+
+# Convert a png
+
+convert image.png -resize 50x50 -quality 95 -depth 8 image_50x50.png
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;That’s all! Now go test your website with Page Insights again.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 20 Apr 2017 05:00:00 -0400</pubDate>
+        <link>http://tdevisscher.ca/notes/2017/04/20/compressing-images-using-imagemagick/</link>
+        <guid isPermaLink="true">http://tdevisscher.ca/notes/2017/04/20/compressing-images-using-imagemagick/</guid>
+        
+        <category>images</category>
+        
+        <category>optimization</category>
+        
+        <category>web</category>
+        
+        
+        <category>notes</category>
+        
+      </item>
     
       <item>
         <title>Localhost trick: SSL</title>
@@ -432,29 +477,6 @@ d3.csv(&quot;/assets/46Peaks.csv&quot;, function(d, i, columns) {
         
         
         <category>project</category>
-        
-      </item>
-    
-      <item>
-        <title>John Muir - Quote</title>
-        <description>&lt;blockquote&gt;
-  &lt;p&gt;In every walk with nature one receives far more than he seeks.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/post_images/gatineau_park_dogs_john_muir.jpg&quot; alt=&quot;file&quot; /&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sun, 29 Jan 2017 04:00:00 -0500</pubDate>
-        <link>http://tdevisscher.ca/blog/2017/01/29/gatineau-park-john-muir-quote/</link>
-        <guid isPermaLink="true">http://tdevisscher.ca/blog/2017/01/29/gatineau-park-john-muir-quote/</guid>
-        
-        <category>literature</category>
-        
-        <category>conservation</category>
-        
-        <category>quotes</category>
-        
-        
-        <category>blog</category>
         
       </item>
     
