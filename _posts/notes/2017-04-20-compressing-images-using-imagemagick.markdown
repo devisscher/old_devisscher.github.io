@@ -6,7 +6,7 @@ date:   2017-04-20T09:00:00Z
 categories: notes
 tags: images optimization web
 ---
-[Google Page Insights](https://developers.google.com/speed/pagespeed/insights/) is a nice tool to review your websites performance. But you may end up realizing that you need to make some changes to your website. One of those changes Google might want you to make is optimize your images. To do so, we can use a cool little tool call ImageMagick. The instructions apply to users on a Mac computer.
+[Google Page Insights](https://developers.google.com/speed/pagespeed/insights/) is a nice tool to review your website performance. But you may end up realizing that you need to make some changes to your website. One of those changes Google might want you to make is optimize your images. To do so, we can use a cool little tool called ImageMagick. The instructions apply to users on a Mac computer.
 
 First we need to install ImageMagick. I strongly recommend installing it with Homebrew.
 
