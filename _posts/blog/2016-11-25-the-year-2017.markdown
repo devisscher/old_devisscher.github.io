@@ -14,13 +14,14 @@ So today I write to you because I saw this post from an entrepreneur I very much
 He said: ["One tip for 2017, write it down"](https://www.virgin.com/richard-branson/my-one-tip-2017-write-it-down), so here I will write a few goals I have for 2017. 
 I have checked this post into version control so any modifications will be recorded. This is an incomplete list and may be adjusted along the way.
 
-1. Learn Python
-2. Publish a vlog about programming and show people how to program
-3. Travel with my bike at all costs
-4. Race my skis once
-5. Race my bike many times this summer
-6. Complete 3 university courses
-7. Eat much more and better to gain muscle mass
+1. <input type="checkbox" /> Learn Python
+2. <input type="checkbox" /> Publish a vlog about programming and show people how to program
+3. <input type="checkbox" /> Travel with my bike at all costs
+4. <input type="checkbox" /> ~~Race my skis once~~ (unless december has races, I think this goal might fall through).
+5. <input type="checkbox" /> Race my bike many times this summer
+6. <input type="checkbox" checked="checked" /> Do a half marathon under 2 hours ([results here](https://www.sportstats.ca/display-results.xhtml?raceid=42853&status=results&lastname=devisscher)).
+7. <input type="checkbox" /> Complete 3 university courses
+8. <input type="checkbox" /> Eat much more and better
 
 What are your goals for 2017? How will you achieve them? Do you think it is okay to change and modify your goals along the way?
 
