@@ -6,9 +6,195 @@
 </description>
     <link>http://tdevisscher.ca/</link>
     <atom:link href="http://tdevisscher.ca/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 01 Jun 2017 09:03:29 -0400</pubDate>
-    <lastBuildDate>Thu, 01 Jun 2017 09:03:29 -0400</lastBuildDate>
+    <pubDate>Wed, 07 Jun 2017 16:05:30 -0400</pubDate>
+    <lastBuildDate>Wed, 07 Jun 2017 16:05:30 -0400</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>Camping trip checklist</title>
+        <description>&lt;style&gt;
+input[type=checkbox]
+{
+  /* Double-sized Checkboxes */
+  -ms-transform: scale(2); /* IE */
+  -moz-transform: scale(2); /* FF */
+  -webkit-transform: scale(2); /* Safari and Chrome */
+  -o-transform: scale(2); /* Opera */
+  padding: 10px;
+}
+&lt;/style&gt;
+
+&lt;p&gt;When you head into the wild, trying to remember to pack everything you need is not an easy task. I always get to the campsite and realize that I forgot something. Here is a camping checklist for the adventurous:&lt;/p&gt;
+
+&lt;h1 id=&quot;survival-gear&quot;&gt;Survival Gear&lt;/h1&gt;
+
+&lt;p&gt;&lt;input type=&quot;checkbox&quot; name=&quot;item_checkbox&quot; onclick=&quot;item_checked(this.id);&quot; id=&quot;tdevisscher_firstaid&quot; /&gt; First aid kit&lt;/p&gt;
+
+&lt;p&gt;&lt;input type=&quot;checkbox&quot; name=&quot;item_checkbox&quot; onclick=&quot;item_checked(this.id);&quot; id=&quot;tdevisscher_flashlight&quot; /&gt; Flashlight&lt;/p&gt;
+
+&lt;p&gt;&lt;input type=&quot;checkbox&quot; name=&quot;item_checkbox&quot; onclick=&quot;item_checked(this.id);&quot; id=&quot;tdevisscher_matches&quot; /&gt; Matches and lighter&lt;/p&gt;
+
+&lt;p&gt;&lt;input type=&quot;checkbox&quot; name=&quot;item_checkbox&quot; onclick=&quot;item_checked(this.id);&quot; id=&quot;tdevisscher_knife&quot; /&gt; Knife&lt;/p&gt;
+
+&lt;p&gt;&lt;input type=&quot;checkbox&quot; name=&quot;item_checkbox&quot; onclick=&quot;item_checked(this.id);&quot; id=&quot;tdevisscher_axe&quot; /&gt; Axe&lt;/p&gt;
+
+&lt;p&gt;&lt;input type=&quot;checkbox&quot; name=&quot;item_checkbox&quot; onclick=&quot;item_checked(this.id);&quot; id=&quot;tdevisscher_gps&quot; /&gt; GPS and Map&lt;/p&gt;
+
+&lt;p&gt;&lt;input type=&quot;checkbox&quot; name=&quot;item_checkbox&quot; onclick=&quot;item_checked(this.id);&quot; id=&quot;tdevisscher_sunscreen&quot; /&gt; Sunscreen and Bug spray&lt;/p&gt;
+
+&lt;p&gt;&lt;input type=&quot;checkbox&quot; name=&quot;item_checkbox&quot; onclick=&quot;item_checked(this.id);&quot; id=&quot;tdevisscher_poncho&quot; /&gt; Emergency poncho&lt;/p&gt;
+
+&lt;p&gt;&lt;input type=&quot;checkbox&quot; name=&quot;item_checkbox&quot; onclick=&quot;item_checked(this.id);&quot; id=&quot;tdevisscher_whistle&quot; /&gt; Whistle&lt;/p&gt;
+
+&lt;h1 id=&quot;camping-gear&quot;&gt;Camping Gear&lt;/h1&gt;
+
+&lt;p&gt;&lt;input type=&quot;checkbox&quot; name=&quot;item_checkbox&quot; onclick=&quot;item_checked(this.id);&quot; id=&quot;tdevisscher_tent&quot; /&gt; Tent&lt;/p&gt;
+
+&lt;p&gt;&lt;input type=&quot;checkbox&quot; name=&quot;item_checkbox&quot; onclick=&quot;item_checked(this.id);&quot; id=&quot;tdevisscher_tarp&quot; /&gt; Tarp&lt;/p&gt;
+
+&lt;p&gt;&lt;input type=&quot;checkbox&quot; name=&quot;item_checkbox&quot; onclick=&quot;item_checked(this.id);&quot; id=&quot;tdevisscher_sleepingbag&quot; /&gt; Sleeping bag&lt;/p&gt;
+
+&lt;p&gt;&lt;input type=&quot;checkbox&quot; name=&quot;item_checkbox&quot; onclick=&quot;item_checked(this.id);&quot; id=&quot;tdevisscher_sleepingpad&quot; /&gt; Sleeping pad&lt;/p&gt;
+
+&lt;p&gt;&lt;input type=&quot;checkbox&quot; name=&quot;item_checkbox&quot; onclick=&quot;item_checked(this.id);&quot; id=&quot;tdevisscher_stove_fuel&quot; /&gt; Stove and Fuel&lt;/p&gt;
+
+&lt;p&gt;&lt;input type=&quot;checkbox&quot; name=&quot;item_checkbox&quot; onclick=&quot;item_checked(this.id);&quot; id=&quot;tdevisscher_pots&quot; /&gt; Pots&lt;/p&gt;
+
+&lt;p&gt;&lt;input type=&quot;checkbox&quot; name=&quot;item_checkbox&quot; onclick=&quot;item_checked(this.id);&quot; id=&quot;tdevisscher_pot_grabber&quot; /&gt; Pot grabber&lt;/p&gt;
+
+&lt;p&gt;&lt;input type=&quot;checkbox&quot; name=&quot;item_checkbox&quot; onclick=&quot;item_checked(this.id);&quot; id=&quot;tdevisscher_utensils&quot; /&gt; Utensils&lt;/p&gt;
+
+&lt;p&gt;&lt;input type=&quot;checkbox&quot; name=&quot;item_checkbox&quot; onclick=&quot;item_checked(this.id);&quot; id=&quot;tdevisscher_plate&quot; /&gt; Plate&lt;/p&gt;
+
+&lt;p&gt;&lt;input type=&quot;checkbox&quot; name=&quot;item_checkbox&quot; onclick=&quot;item_checked(this.id);&quot; id=&quot;tdevisscher_bowl&quot; /&gt; Bowl&lt;/p&gt;
+
+&lt;p&gt;&lt;input type=&quot;checkbox&quot; name=&quot;item_checkbox&quot; onclick=&quot;item_checked(this.id);&quot; id=&quot;tdevisscher_cup&quot; /&gt; Cup&lt;/p&gt;
+
+&lt;p&gt;&lt;input type=&quot;checkbox&quot; name=&quot;item_checkbox&quot; onclick=&quot;item_checked(this.id);&quot; id=&quot;tdevisscher_filter&quot; /&gt; Water filter&lt;/p&gt;
+
+&lt;h1 id=&quot;personal-gear&quot;&gt;Personal Gear&lt;/h1&gt;
+
+&lt;p&gt;&lt;input type=&quot;checkbox&quot; name=&quot;item_checkbox&quot; onclick=&quot;item_checked(this.id);&quot; id=&quot;tdevisscher_toothbrush_soap&quot; /&gt; Toothbrush and Camp suds&lt;/p&gt;
+
+&lt;p&gt;&lt;input type=&quot;checkbox&quot; name=&quot;item_checkbox&quot; onclick=&quot;item_checked(this.id);&quot; id=&quot;tdevisscher_tp&quot; /&gt; TP&lt;/p&gt;
+
+&lt;p&gt;&lt;input type=&quot;checkbox&quot; name=&quot;item_checkbox&quot; onclick=&quot;item_checked(this.id);&quot; id=&quot;tdevisscher_towel&quot; /&gt; Pack towel&lt;/p&gt;
+
+&lt;p&gt;&lt;input type=&quot;checkbox&quot; name=&quot;item_checkbox&quot; onclick=&quot;item_checked(this.id);&quot; id=&quot;tdevisscher_phone&quot; /&gt; Phone&lt;/p&gt;
+
+&lt;p&gt;&lt;input type=&quot;checkbox&quot; name=&quot;item_checkbox&quot; onclick=&quot;item_checked(this.id);&quot; id=&quot;tdevisscher_crocs&quot; /&gt; Crocs&lt;/p&gt;
+
+&lt;p&gt;&lt;input type=&quot;checkbox&quot; name=&quot;item_checkbox&quot; onclick=&quot;item_checked(this.id);&quot; id=&quot;tdevisscher_camera&quot; /&gt; Camera&lt;/p&gt;
+
+&lt;h1 id=&quot;clothing&quot;&gt;Clothing&lt;/h1&gt;
+
+&lt;p&gt;&lt;input type=&quot;checkbox&quot; name=&quot;item_checkbox&quot; onclick=&quot;item_checked(this.id);&quot; id=&quot;tdevisscher_tshirt&quot; /&gt; T-Shirt(s)&lt;/p&gt;
+
+&lt;p&gt;&lt;input type=&quot;checkbox&quot; name=&quot;item_checkbox&quot; onclick=&quot;item_checked(this.id);&quot; id=&quot;tdevisscher_longsleeve&quot; /&gt; Long sleeve shirt&lt;/p&gt;
+
+&lt;p&gt;&lt;input type=&quot;checkbox&quot; name=&quot;item_checkbox&quot; onclick=&quot;item_checked(this.id);&quot; id=&quot;tdevisscher_hoodie&quot; /&gt; Hoodie or Fleece&lt;/p&gt;
+
+&lt;p&gt;&lt;input type=&quot;checkbox&quot; name=&quot;item_checkbox&quot; onclick=&quot;item_checked(this.id);&quot; id=&quot;tdevisscher_pants&quot; /&gt; Pants&lt;/p&gt;
+
+&lt;p&gt;&lt;input type=&quot;checkbox&quot; name=&quot;item_checkbox&quot; onclick=&quot;item_checked(this.id);&quot; id=&quot;tdevisscher_shorts&quot; /&gt; Shorts&lt;/p&gt;
+
+&lt;p&gt;&lt;input type=&quot;checkbox&quot; name=&quot;item_checkbox&quot; onclick=&quot;item_checked(this.id);&quot; id=&quot;tdevisscher_underwear&quot; /&gt; Underwear&lt;/p&gt;
+
+&lt;p&gt;&lt;input type=&quot;checkbox&quot; name=&quot;item_checkbox&quot; onclick=&quot;item_checked(this.id);&quot; id=&quot;tdevisscher_socks&quot; /&gt; Cotton/Sports socks&lt;/p&gt;
+
+&lt;p&gt;&lt;input type=&quot;checkbox&quot; name=&quot;item_checkbox&quot; onclick=&quot;item_checked(this.id);&quot; id=&quot;tdevisscher_warm_socks&quot; /&gt; Warm socks&lt;/p&gt;
+
+&lt;p&gt;&lt;input type=&quot;checkbox&quot; name=&quot;item_checkbox&quot; onclick=&quot;item_checked(this.id);&quot; id=&quot;tdevisscher_toque&quot; /&gt; Toque&lt;/p&gt;
+
+&lt;p&gt;&lt;input type=&quot;checkbox&quot; name=&quot;item_checkbox&quot; onclick=&quot;item_checked(this.id);&quot; id=&quot;tdevisscher_hat&quot; /&gt; Hat&lt;/p&gt;
+
+&lt;p&gt;Please feel free to comment your additions. You never know, I may have forgotten stuff.&lt;/p&gt;
+
+&lt;script&gt;
+
+function item_checked(item_id)
+
+{	
+	if(localStorage[item_id]){
+		confirm(&quot;Removing item, are you sure?&quot;)
+		localStorage.removeItem([item_id]);
+	} else {
+		alert(&quot;keep on packing!&quot;)
+		localStorage[item_id] = true;
+	}
+	
+	//alert(localStorage[item_id])
+}
+
+function check_items_that_are_in_storage(){
+	checkboxes = document.getElementsByName(&#39;item_checkbox&#39;);
+	for (var i = 0; i &lt; checkboxes.length; i++) {
+	     //checkboxes[i].checked = true;
+	     console.log(checkboxes[i].id);
+
+	     if(localStorage[checkboxes[i].id]) {
+	     	checkboxes[i].checked = localStorage[checkboxes[i].id];
+	    }
+	}
+}
+
+check_items_that_are_in_storage()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;/script&gt;
+
+</description>
+        <pubDate>Tue, 06 Jun 2017 05:00:00 -0400</pubDate>
+        <link>http://tdevisscher.ca/blog/2017/06/06/camping-trip-checklist/</link>
+        <guid isPermaLink="true">http://tdevisscher.ca/blog/2017/06/06/camping-trip-checklist/</guid>
+        
+        <category>adventure</category>
+        
+        <category>camping</category>
+        
+        <category>trips</category>
+        
+        <category>checklists</category>
+        
+        
+        <category>blog</category>
+        
+      </item>
     
       <item>
         <title>Confirm before action prompt</title>
@@ -460,23 +646,6 @@ d3.csv(&quot;/assets/46Peaks.csv&quot;, function(d, i, columns) {
         
         
         <category>notes</category>
-        
-      </item>
-    
-      <item>
-        <title>Snapchat documentation</title>
-        <description>&lt;p&gt;Please refer to the following in order to understand the emojis next to your Snapchat friends list.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://img.tdevisscher.ca/images/blog/0c1783cd-b369-f160-289b-17027a08a5c4.jpg&quot; alt=&quot;file&quot; /&gt;&lt;/p&gt;
-</description>
-        <pubDate>Thu, 02 Feb 2017 04:00:00 -0500</pubDate>
-        <link>http://tdevisscher.ca/blog/2017/02/02/snapchat-documentation/</link>
-        <guid isPermaLink="true">http://tdevisscher.ca/blog/2017/02/02/snapchat-documentation/</guid>
-        
-        <category>social-media</category>
-        
-        
-        <category>blog</category>
         
       </item>
     
