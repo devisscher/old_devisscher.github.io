@@ -6,18 +6,6 @@ date:   2017-06-06T09:00:00Z
 categories: blog
 tags: adventure camping trips checklists
 --- 
-<style>
-input[type=checkbox]
-{
-  /* Double-sized Checkboxes */
-  -ms-transform: scale(2); /* IE */
-  -moz-transform: scale(2); /* FF */
-  -webkit-transform: scale(2); /* Safari and Chrome */
-  -o-transform: scale(2); /* Opera */
-  padding: 10px;
-}
-</style>
-
 When you head into the wild, trying to remember to pack everything you need is not an easy task. I always get to the campsite and realize that I forgot something. Here is a camping checklist for the adventurous: 
 
 # Survival Gear
@@ -28,7 +16,7 @@ When you head into the wild, trying to remember to pack everything you need is n
 
 <input type="checkbox" name="item_checkbox" onclick="item_checked(this.id);" id="tdevisscher_matches" /> Matches and lighter
 
-<input type="checkbox" name="item_checkbox" onclick="item_checked(this.id);" id="tdevisscher_knife" /> Knife
+<input type="checkbox" name="item_checkbox" onclick="item_checked(this.id);" id="tdevisscher_knife" /> Knife (with can opener and cork screw)
 
 <input type="checkbox" name="item_checkbox" onclick="item_checked(this.id);" id="tdevisscher_axe" /> Axe
 
@@ -65,8 +53,6 @@ When you head into the wild, trying to remember to pack everything you need is n
 <input type="checkbox" name="item_checkbox" onclick="item_checked(this.id);" id="tdevisscher_cup" /> Cup
 
 <input type="checkbox" name="item_checkbox" onclick="item_checked(this.id);" id="tdevisscher_filter" /> Water filter
-
-
 
 
 # Personal Gear
@@ -139,41 +125,6 @@ function check_items_that_are_in_storage(){
 }
 
 check_items_that_are_in_storage()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 </script>
