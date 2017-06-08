@@ -94,7 +94,7 @@ When you head into the wild, trying to remember to pack everything you need is n
 
 
 
-Please feel free to comment your additions. You never know, I may have forgotten stuff.
+Please feel free to comment your additions. I may have forgotten stuff.
 
 <script>
 
