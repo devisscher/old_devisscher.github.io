@@ -5,4 +5,4 @@ permalink: /quotes/
 menu: main
 ---
 <div id="app"></div>
-<script src="/assets/javascripts/QuotesApp.js"></script>
+<script type="text/javascript" src="http://cdn.rawgit.com/devisscher/api.tdevisscher.ca/master/components/builds/QuotesApp.js"></script>
