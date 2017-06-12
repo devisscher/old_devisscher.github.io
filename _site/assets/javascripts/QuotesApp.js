@@ -14311,7 +14311,7 @@ class ListQuotes extends __WEBPACK_IMPORTED_MODULE_0_react__["Component"] {
     }
 
     componentDidMount() {
-        __WEBPACK_IMPORTED_MODULE_2_axios___default.a.get('/quotes').then(response => {
+        __WEBPACK_IMPORTED_MODULE_2_axios___default.a.get('https://api.tdevisscher.ca/quotes').then(response => {
             console.log(response);
             this.setState({ results: response.data.quotes });
         }).catch(function (error) {
