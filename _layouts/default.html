@@ -46,6 +46,7 @@
         {% include footer.html %}
         <nav class="sidebar">
           <ul>
+          <li class="center white">tdevisscher.ca</li>
             {% for my_page in site.pages %}
               {% if my_page.title %}
                 {% if my_page.menu == 'main' %}
@@ -53,6 +54,21 @@
                 {% endif %}
               {% endif %}
             {% endfor %}
+            <li class="divider">
+            </li>
+          </ul>
+
+           <ul>
+           <li class="center white">extras</li>
+            {% for my_page in site.pages %}
+              {% if my_page.title %}
+                {% if my_page.sidebar == true %}
+                  <li><a class="" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
+                {% endif %}
+              {% endif %}
+            {% endfor %}
+            <li class="divider">
+            </li>
           </ul>
           <img style="position:fixed; bottom:5px; left:5px;" src="https://travis-ci.org/devisscher/devisscher.github.io.svg?branch=master"/>
         </nav>

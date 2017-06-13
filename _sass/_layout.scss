@@ -196,11 +196,21 @@
   transform: translateY(-7px) rotate(90deg);
 }
 
+.center {
+    text-align: center;
+
+}
+li.center:hover {
+    cursor: default!important;
+    text-align: center;
+    background-color: $text-color!important;
+}
+
 .sidebar {
     z-index: 2;
     position: fixed;
-    padding-top:70px;
-    width: 150px;
+    padding-top:50px;
+    width: 250px;
     font-size: 16px;
     top: 0;
     bottom: 0;
@@ -215,6 +225,13 @@
 .sidebar li:hover {
     cursor: pointer;
     background-color: $brand-color;
+}
+.divider {
+    padding:0px!important;
+    margin-bottom: -39px !important;
+    border-top: 1px #fff solid;
+    cursor: default!important;
+    background-color: $text-color!important;
 }
 .active {
     background-color: $brand-color;
