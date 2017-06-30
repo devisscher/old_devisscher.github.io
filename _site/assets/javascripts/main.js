@@ -43,7 +43,7 @@ $(document).ready(function(){
 });
 
 // Rotate banner images
-var images = ['image1-min.jpg', 'image2-min.jpg', 'image3-min.jpg', 'image4-min.jpg', 'image5-min.jpg', 'image6-min.jpg', 'image7-min.jpg', 'image8-min.jpg', 'image9-min.jpg', 'image10-min.jpg', 'image11-min.jpg', 'image12-min.jpg', 'image13-min.jpg', 'image14-min.jpg', 'image15-min.jpg', 'image16-min.jpg', 'image17-min.jpg', 'image18-min.jpg', 'image19-min.jpg', 'image20-min.jpg', 'image21-min.jpg', 'image22-min.jpg', 'image23-min.jpg', 'image24-min.jpg', 'image25-min.jpg', 'image26-min.jpg', 'image27-min.jpg', 'image28-min.jpg', 'image29-min.jpg', 'image30-min.jpg', 'image31-min.jpg']; 
+var images = ['image1-min.jpg', 'image2-min.jpg', 'image3-min.jpg', 'image4-min.jpg', 'image5-min.jpg', 'image6-min.jpg', 'image7-min.jpg', 'image8-min.jpg', 'image9-min.jpg', 'image10-min.jpg', 'image11-min.jpg', 'image12-min.jpg', 'image13-min.jpg', 'image14-min.jpg', 'image15-min.jpg', 'image16-min.jpg', 'image17-min.jpg', 'image18-min.jpg', 'image19-min.jpg', 'image20-min.jpg', 'image21-min.jpg', 'image22-min.jpg', 'image23-min.jpg', 'image24-min.jpg', 'image25-min.jpg', 'image26-min.jpg', 'image27-min.jpg', 'image28-min.jpg', 'image29-min.jpg', 'image30-min.jpg', 'image31-min.jpg', 'image32-min.jpg']; 
       $('#banner_imgs').css({'background-image': 'url(/assets/bannerimages/' + images[Math.floor(Math.random() * images.length)] + ')'});  
 
 
