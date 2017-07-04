@@ -6,6 +6,7 @@ menu: main
 ---
 <div class="container">
   <div class="panel">
+  <h1>Resume</h1>
     <div class="row">
       
       <div class="twelve columns">
@@ -30,7 +31,6 @@ menu: main
     <a class="button angular" href="#angular">Angular</a>
     <a class="button aws" href="#aws">Amazon Web Services</a>
     <a class="button asp" href="#asp">ASP.Net</a>
-    <a class="button bitbucket" href="#bitbucket">Bitbucket</a>
     <a class="button bootstrap" href="#bootstrap">Bootstrap CSS</a>
     <a class="button c" href="#c">C#</a>
     <a class="button d3" href="#d3">D3</a>
@@ -69,11 +69,11 @@ menu: main
       <h2>
       Personal projects and learning</h2>
       <dd>
-      <p>Build <a class="node" id="node">Node.js</a> and <a id="express" class="express">Express</a> applications backed by <a id="mysql" class="mysql">MySQL</a> and <a id="mongodb" class="mongodb">MongoDB</a>. Build <a class="meteor" id="meteor">Meteor</a> websites with <a id="react" class="react">React</a> and <a class="angular">Angular2</a>. Build <a class="drupal"
-      id="drupal">Drupal</a> and <a class="wp" id="wp">Wordpress</a> websites for clients and Corporate websites. Build <a class="ruby" id="ruby">Ruby/Sinatra</a> <a id="html" class="htmlcss">CSS</a> element scrapper. Build
-      an <a id="angular" class="angular">Angular</a>, CSV parser. Build <a class="ruby">RoR</a> blog with a <a id="pgsql" class="pgsql">PostgreSQL</a> database. Build various one page <a class="htmlcss">html/CSS</a> websites for clients. Build <a id="jekyll"
-      class="jekyll">Jekyll</a> static blogs and websites. Learn <a id="d3" class="d3">D3.js</a>. Run many <a class="aws" id="aws">AWS</a> instances on <a class="linux" id="linux">Linux AMI</a>'s, or <a id="windows" class="windows">Windows Server AMI</a>'s,
-      create really persistant RDS instances for <a id="ios" class="objective swift">iOS</a> application programing interfaces. Deploy applications with <a id="heroku" class="heroku">Heroku</a>. Use <a class="git" id="git">Git</a> and <a id="svn" class="svn">SVN</a> as versioning tools. Take many courses on Lynda.com.
+      <p>Build <a class="node" id="node">Node.js</a> and <a id="express" class="express">Express</a> applications backed by <a id="mysql" class="mysql">MySQL</a> or <a id="mongodb" class="mongodb">MongoDB</a>. Build <a class="meteor" id="meteor">Meteor</a> websites with <a id="react" class="react">React</a> and <a class="angular">Angular2</a>. Build and maintain <a class="drupal"
+      id="drupal">Drupal</a> and <a class="wp" id="wp">Wordpress</a> websites for clients and Corporate websites.
+      Build <a class="ruby">RoR</a> applications. Build various one page <a class="htmlcss">HTML/CSS</a> websites for clients. Build <a id="jekyll"
+      class="jekyll">Jekyll</a> static blogs and websites. Learn <a id="d3" class="d3">D3.js</a>. Work with <a class="aws" id="aws">AWS</a> instances on <a class="linux" id="linux">Linux AMIs</a>'s, or <a id="windows" class="windows">Windows Server AMI</a>'s,
+      create really persistant RDS instances for <a id="ios" class="objective swift">iOS</a> application programing interfaces. Deploy applications on <a id="heroku" class="heroku">Heroku</a>. Use <a class="git" id="git">Git</a> and <a id="svn" class="svn">SVN</a> as versioning systems.
     </p>
     </dd>
   </dl>
@@ -85,9 +85,8 @@ menu: main
     <dd><em>Ottawa Hospital Research Institute</em>
     <br>
     <p class="muted">June 2015 - present</p>
-    <p>Develop and Design Web Applications to support research activities with <a class="asp" id="asp">ASP.NET</a> using <a id="c" class="c">C#</a> and <a id="vb" class="vb">Visual Basic</a> with <a id="vs" class="vs">Visual Studio</a>. Develop web applications
-    for: Research Grants, Peer Review and Decision Aid with data access through <a class="mssql" id="mssql">MsSQL</a> databases. Deploy applications to <a class="windows"> Windows Server</a>. Create mobile ready websites and templates
-    using <a id="bootstrap" class="bootstrap">Bootstrap CSS</a> framework. Build user interface controls using <a class="js" id="js">Javascript</a> and <a class="jquery" id="jquery">jQuery</a>. Develop <a id="passbook" class="passbook">Passbook</a>          app for special events and seminars by designing the pass and building a <a class="ruby">Ruby/Sinatra</a> API capable of distributing and updating passes. Manage versioning with <a id="svn" class="svn">SVN</a>.
+    <p>Develop and Design Web Applications to support research activities using <a class="node" id="node">Node.js</a> and <a id="mongodb" class="mongodb">MongoDB</a> as well as <a class="asp" id="asp">ASP.NET</a> and <a class="mssql" id="mssql">SQL</a>. (Conference Registration, E-Learning, Research Grants, Peer Review and Decision Aid). Deploy applications to <a class="linux">Linux</a> and use Docker to containerize apps. Deploy to <a class="windows"> Windows Server</a>. Create mobile ready websites and templates
+    using <a id="bootstrap" class="bootstrap">Bootstrap CSS</a> framework. Build user interface controls using <a class="js" id="js">Javascript</a> and <a class="jquery" id="jquery">jQuery</a>. Develop <a id="passbook" class="passbook">Passbook</a> app for special events and seminars by designing the pass and building a <a class="ruby">Ruby/Sinatra</a> API capable of distributing and updating passes. Manage versioning with <a id="svn" class="svn">SVN</a>.
   </p>
   </dd>
 </dl>
@@ -97,8 +96,7 @@ menu: main
   <br> <p class="muted">December 2014 - May 2015</p>
   <p>Develop <a class="asp">ASP.NET</a> and <a class="drupal">Drupal</a> websites for the Canada School of Public Service in accordance with Web Standards for the Government of Canada (GOC). Migrate <a class="asp">Classic ASP</a> website to <a class="asp">ASPX</a>/
   <a
-    class="vb">Visual Basic</a> with the <a class="wet" id="wet">Web-Experience Toolkit</a> (<a class="bootstrap">Bootstrap CSS</a>) developed by the GOC. Build a <a class="drupal">Drupal</a> engagement forum for the managers community and deploy in <a class="aws">AWS</a>            EBS and EC2 <a class="linux">Linux</a>, <a class="apacher">Apache</a>, <a class="mysql">MySQL</a>, <a class="php" id="php">PhP</a>, environments. Participate in the <a id="qa" class="qa">QA</a> phase of the migration. Manage code and versioning
-    with <a class="vs">Visual Studio</a> <a id="tfs" class="tfs">Team Foundation Server.</a></p>
+    class="vb">Visual Basic</a> with the <a class="wet" id="wet">Web-Experience Toolkit</a> (<a class="bootstrap">Bootstrap CSS</a>) developed by the GOC. Build a <a class="drupal">Drupal</a> engagement forum for the managers community and deploy in <a class="aws">AWS</a>            EBS and EC2 <a class="linux">Linux</a>, <a class="apacher">Apache</a>, <a class="mysql">MySQL</a>, <a class="php" id="php">PhP</a>, environments. Participate in the <a id="qa" class="qa">QA</a> phase of the migration. Manage code with <a class="vs">Visual Studio</a> <a id="tfs" class="tfs">Team Foundation Server.</a></p>
     </dd>
   </dl>
   <dl>
@@ -107,7 +105,7 @@ menu: main
     <br> <p class="muted">May 2011 - December 2014</p>
     <p>
       Test and Develop <a class="drupal">Drupal</a> as a space planning application. Prepare test cases and <a class="qa">QA</a> reports for the application. Coordinate moves and special projects: major moves of up to 1600 persons, A/V Solutions,
-      projects based on security requirements, business restructurations, office fit-ups, purchase and procure office furniture. Create and update branch project plans. Provide advice and prepare proposals for space planning. Ensure compliance with
+      projects based on security requirements, business reorganizations, office fit-ups, purchase and procure office furniture. Create and update branch project plans. Provide advice and prepare proposals for space planning. Ensure compliance with
       PWGSC Workspace 2.0 fit-up standards. Create communication products for senior management.
     </p>
     </dd>
@@ -129,30 +127,52 @@ menu: main
     </dd>
   </dl>
   <dl>
-    <dt class="poste">Bike and XC Ski Mecanic and Technician</dt>
+    <dt class="poste">Bike and XC Ski Mechanic and Technician</dt>
     <dd><em>Greg Christie's Ski and Cycleworks</em>
     <br> <p class="muted">Aug 2007 - May 2010</p>
-    <p>Repair high performance bicycles, wax and prepare high performance skis for athletes and clients. Order parts and accessories. Help with sales and custommer service.</p>
+    <p>Repair high performance bicycles, wax and prepare high performance skis for athletes and clients. Order parts and accessories. Help with sales and customer service.</p>
     </dd>
   </dl>
 </div>
 <div class="row">
-  <h2>Education</h2>
+  <h2>Education and Learning</h2>
   <dl>
-    <dt class="poste">Université du Québec en Outaouais</dt>
-    <dd>Business Administration and Political Science
+    <dt class="poste">Mongo DB World (2017)</dt>
+    <dd>
+    MongoDB World is where the world’s fastest growing database community comes to connect, explore, and learn. Join us for hands-on and deep-dive technical sessions, giving you the tools you need to build and deploy your giant ideas.
+    </dd>
+  </dl>
+   <dl>
+    <dt class="poste">Online Courses (Ongoing)</dt>
+    <dd>
+      <ul>
+        <li>Lynda.com courses
+        <ul>
+        <li>Foundations of Programming: Object-Oriented Design</li>
+        <li>Up and Running with Node.js</li>
+        <li>C# Delegates, Events, and Lambdas</li>
+        <li>jQuery Data with AJAX</li>
+        <li>Programming Foundations: Design Patterns</li>
+        <li>ASP.NET MVC 5 Essential Training</li>
+        <li>iOS 8 App Development with Swift 1 Essential Training</li>
+        </ul>
+        </li>
+      </ul>
     </dd>
   </dl>
   <dl>
-    <dt class="poste">College Diploma(Science)</dt>
-    <dd>CÉGEP de l'Outaouais
-    <br> Graduated in 2009
+    <dt class="poste">Université du Québec en Outaouais (2014)</dt>
+    <dd>Business Administration and Political Science</dd>
+  </dl>
+  <dl>
+    <dt class="poste">College Diploma (2009)</dt>
+    <dd>CÉGEP de l'Outaouais - Science Nature
     </dd>
   </dl>
 </div>
 <h2>Sports and other activities</h2>
 <dl>
-  <dd>Competitive cycling and coaching, technology, learning new programming languages, politics.
+  <dd>Competitive cycling, running, coaching, outdoors technology, learning new programming languages, politics.
   </dd>
 </dl>
 <dl>
