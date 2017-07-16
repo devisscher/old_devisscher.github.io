@@ -83,6 +83,20 @@ figure,
 .gist-meta a{color:#26a !important;text-decoration:none}
 .gist-meta a:hover{color:#0e4071 !important}
 
+// FLOAT PICTURES
+.contained {
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+.floated {
+    float: left;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    width: 300px;
+}
+
 
 /**
  * Images
