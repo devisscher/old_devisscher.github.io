@@ -6,32 +6,32 @@
 </description>
     <link>http://tdevisscher.ca/</link>
     <atom:link href="http://tdevisscher.ca/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 16 Jul 2017 15:04:51 -0400</pubDate>
-    <lastBuildDate>Sun, 16 Jul 2017 15:04:51 -0400</lastBuildDate>
+    <pubDate>Sun, 16 Jul 2017 17:59:44 -0400</pubDate>
+    <lastBuildDate>Sun, 16 Jul 2017 17:59:44 -0400</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
         <title>Collaborative projects</title>
-        <description>&lt;p&gt;Have you ever found yourself in a collaborative project and realized your teammates are not headed the same direction as you? Maybe their objectives are different, their way of doing things is different or even their idea of project ownership is different.&lt;/p&gt;
+        <description>&lt;p&gt;Have you ever found yourself in a collab project and realized your teammates are not headed in the same direction as you? Maybe their objectives are different, their way of doing things is different or even their idea of project ownership is different.&lt;/p&gt;
 
-&lt;p&gt;I recently found myself in such a situation while working on a community project. I love getting involved in development projects because I get to meet people who love to discuss the things I love. (i.e. coding) Things can get a little complicated when you can’t agree on the direction a project should take. Following this experience, I thought it would be good to write down some of the things I’ve learned about collaborating.&lt;/p&gt;
+&lt;p&gt;I recently found myself in such a situation while working on a community project. I love getting involved in development projects because I get to meet people who love to discuss the things I love. (e.g. coding) Things can get a little complicated when you can’t agree on the direction a project should take. Following this experience, I thought it would be helpful to write down some of the things I’ve learned about collaborating.&lt;/p&gt;
 
 &lt;div class=&quot;contained&quot;&gt;
 &lt;img src=&quot;/assets/post_images/git_bernie.png&quot; class=&quot;floated&quot; width=&quot;300&quot; /&gt;
 &lt;h3&gt;1. Use a common repo.&lt;/h3&gt;
-All too often tension rises when your code repo isn&#39;t under your GitHub account. My feeling with regards to who should own the repo is, nobody. That&#39;s right, use an organization that is happy to host your repo. If you met in a public meet-up, ask the organizers of that meet-up if you can host your project on their GitHub account. This will ease the tension created by code ownership and provide great visibility to your meet-up group. 
+All too often tension arises when your code repo isn&#39;t under your GitHub account. My feeling with regards to who should own the repo is, nobody. That&#39;s right, use an organization that is happy to host your repo. If you met in a public meet-up, ask the organizers of that meet-up if you can host your project on their GitHub account. This will ease the tension created by code ownership and provide great visibility to your meet-up group. 
 
 &lt;/div&gt;
 &lt;div class=&quot;contained&quot;&gt;
 &lt;img class=&quot;floated&quot; src=&quot;/assets/post_images/project_scope.jpg&quot; width=&quot;300&quot; /&gt;
-&lt;h3&gt;2. Be weary of scope creep.&lt;/h3&gt;
+&lt;h3&gt;2. Be wary of scope creep.&lt;/h3&gt;
 When you start a collaborative project you might find yourself overwhelmed by its scope. Collaborative projects usually bring many people together from different backgrounds. Even though the idea of building an app that can do anything and everything might be interesting, most people who join your project will not have time to wrap their heads around the entirety of your project&#39;s scope. Keep things simple and succinct. Make sure you attack specific problems and address solutions quickly. If you have the time to meet with your teammates, discuss tasks and features and make up a list of priorities quickly. Don&#39;t deliberate endlessly, people soon get annoyed and 
 lose track.
 &lt;/div&gt;
 &lt;div class=&quot;contained&quot;&gt;
 &lt;img src=&quot;/assets/post_images/belfort.jpg&quot; class=&quot;floated&quot; width=&quot;300&quot; /&gt;
 &lt;h3&gt;3. Keep money out of the picture.&lt;/h3&gt;
-Nowadays the most expensive part of developing apps is time. People have limited amounts of time, let alone time to spend on collaborative side projects. When discussing with your teammates, keep money away. We all want to build a best seller app which will bring in millions of dollars. But be aware that joining a collaborative project isn&#39;t solely motivated by money. Friendships, knowledge and networking are also great motivators.  Also, keep in mind that some participants may be bound by their employers and profit would interfere with their current engagements. Remember that profit comes with liabilities.
+Nowadays, the most expensive part of developing apps is time. People have limited amounts of time, let alone time to spend on collaborative side projects. When discussing with your teammates, don&#39;t talk about money. We all want to build a best-seller app which will bring in millions of dollars. But be aware that joining a collaborative project isn&#39;t solely motivated by money. Friendships, knowledge and networking are also great motivators.  Also, keep in mind that some participants may be bound by their employers and profit would interfere with their current engagements. Remember that profit comes with liabilities.
 &lt;/div&gt;
 
 &lt;div class=&quot;contained&quot;&gt;
