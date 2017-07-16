@@ -6,8 +6,8 @@
 </description>
     <link>http://tdevisscher.ca/</link>
     <atom:link href="http://tdevisscher.ca/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 16 Jul 2017 14:14:52 -0400</pubDate>
-    <lastBuildDate>Sun, 16 Jul 2017 14:14:52 -0400</lastBuildDate>
+    <pubDate>Sun, 16 Jul 2017 15:04:51 -0400</pubDate>
+    <lastBuildDate>Sun, 16 Jul 2017 15:04:51 -0400</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -25,7 +25,7 @@ All too often tension rises when your code repo isn&#39;t under your GitHub acco
 &lt;div class=&quot;contained&quot;&gt;
 &lt;img class=&quot;floated&quot; src=&quot;/assets/post_images/project_scope.jpg&quot; width=&quot;300&quot; /&gt;
 &lt;h3&gt;2. Be weary of scope creep.&lt;/h3&gt;
-When you start a collaborative project you might find yourself overwhelmed by its scope. Collaborative projects usually bring many people together of different backgrounds. Even though the idea of building an app that can do anything and everything might be interesting, most people who join your project will not have time to wrap their heads around the entirety of your project&#39;s scope. Keep things simple and succinct. Make sure you attack specific problems and address solutions quickly. If you have the time to meet with your teammates, discuss tasks and features and make up a list of priorities quickly. Don&#39;t deliberate endlessly, people soon get annoyed and 
+When you start a collaborative project you might find yourself overwhelmed by its scope. Collaborative projects usually bring many people together from different backgrounds. Even though the idea of building an app that can do anything and everything might be interesting, most people who join your project will not have time to wrap their heads around the entirety of your project&#39;s scope. Keep things simple and succinct. Make sure you attack specific problems and address solutions quickly. If you have the time to meet with your teammates, discuss tasks and features and make up a list of priorities quickly. Don&#39;t deliberate endlessly, people soon get annoyed and 
 lose track.
 &lt;/div&gt;
 &lt;div class=&quot;contained&quot;&gt;
