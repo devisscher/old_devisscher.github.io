@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title:  "Collaborative projects"
-date:   2017-07-19T09:00:00Z
+date:   2017-07-16T09:00:00Z
 categories: blog
 tags: development projects community collaboration
 --- 
@@ -42,7 +42,10 @@ You might find it fun to blurt out functions and write out code as if the projec
 Let's face it, most of the code you write has already been written. Also, many famous apps are open source and are capable of generating profits, so why would you feel the need to close off your code. If you feel the need to make your code closed source, don't join collaborative projects. Tying in to #1, you should also include an MIT or BSD license in your repo. This way you avoid the proprietary BS discussion. We can all think of a company who favored proprietary code over open source...
 </div>	
 
-## Conclusion 
+<div class="contained">
+
+<h3>Conclusion</h3> 
 
 The reason why some of these dos and don'ts are important is that the success of your project is "bigly" related to the people who work with you. Inclusiveness and making sure everyone is comfortable with the scope and direction of the project will create a more enjoyable experience for collaborative projects. This list is non-exhaustive and I would love to hear about your collaborative experiences and what you've found.
 
+</div>
