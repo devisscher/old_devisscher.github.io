@@ -15,7 +15,7 @@ When I'm not programming or outdoors cycling, skiing, camping, canoing or walkin
 	<div class="card">
 		<div class="card-block">
 			<h4 class="card-title">Code</h4>
-			<p>I spend countless hours building applications and websites for work and for fun. I focus on JavaScript frameworks and dabble into Python, PHP and .NET and Swift. I enjoy front-end libraries such as React and Angular2.</p>
+			<p>I spend countless hours building applications and websites for work and for fun. I focus on JavaScript frameworks and dabble into Python, PHP, .NET and Swift. I enjoy front-end libraries such as React and Angular2.</p>
 			<img src='/assets/about_images/nodejs_50x50.png' style="max-width:50px; padding:3px;"/>
 			<img src='/assets/about_images/py_50x50.png' style="max-width:50px; padding:3px;"/>
 			<img src='/assets/about_images/js_50x50.png' style="max-width:50px; padding:3px;"/>
