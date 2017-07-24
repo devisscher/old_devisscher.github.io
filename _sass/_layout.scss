@@ -1,7 +1,6 @@
 /**
 * Grid system
 */
-
 .col-1 {
     width: 8.33%;
 }
@@ -120,7 +119,7 @@
     height:50px;
     // Positioning context for the mobile navigation icon
     position: fixed;
-    background-color: transparent;
+    background-color: $grey-color-dark;
     width: 100%;
     -webkit-transition: .5s; /* Safari */
     transition: .5s;
@@ -396,14 +395,12 @@ li.center:hover {
         width: calc(100% - (#{$spacing-unit} / 2));
     }
 }
-
-
 /**
 * Page content
 */
 
 .page-content {
-    padding: $spacing-unit 0;
+    padding-top: $spacing-unit * 2.5;
 }
 
 .page-heading {
