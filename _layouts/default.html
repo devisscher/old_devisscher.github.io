@@ -14,7 +14,7 @@
     <div class="content">
       <div hidden id="page-url">{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}</div>
       <div hidden id="page-id">{{ page.title }}</div>
-      <div id="banner_imgs" style="background-size: cover; background-position: center; height: 300px"> </div>
+      <div id="banner_imgs" style="background-size: cover!important; background-position: center!important; background-repeat: no-repeat!important; background-attachment: fixed!important; height: 300px;"> </div>
       {% include header.html %}
         <div class="page-content">
           <div class="wrapper">
@@ -25,7 +25,6 @@
           <script>
           var pgurl = document.getElementById("page-url").innerHTML;
           var pgid = document.getElementById("page-id").innerHTML;
-
           var disqus_config = function () {
           this.page.url = pgurl;  
           this.page.identifier = pgid; 
@@ -45,6 +44,9 @@
 
         {% include footer.html %}
         <nav class="sidebar">
+          <ul class="center" >
+          <img src="/assets/td_logo_white.svg" style="height:100px; width:100px; margin-left:-30px;" />
+          </ul>
           <ul>
           <li class="center white">tdevisscher.ca</li>
             {% for my_page in site.pages %}

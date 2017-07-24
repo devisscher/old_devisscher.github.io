@@ -59,7 +59,9 @@ var public_spreadsheet_url = 'https://docs.google.com/spreadsheets/d/13yxqxJADhS
 	function showInfo(table_data, tabletop) {
 		//alert("Successfully processed!")
 		peaks = table_data.Sheet1.elements;
+
 		for (var i = peaks.length - 1; i >= 0; i--) {
+
 			$( ".mountain_data" ).append('\
 				<tr>\
 				<td class="mountain_check">'+ peaks[i].Done +'</td>\
@@ -162,18 +164,5 @@ d3.csv("/assets/46Peaks.csv", function(d, i, columns) {
     .data(keys.slice().reverse())
     .enter().append("g")
       .attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; })
-
-  // // side rectangles
-  // legend.append("rect")
-  //     .attr("x", width - 19)
-  //     .attr("width", 19)
-  //     .attr("height", 19)
-  //     .attr("fill", z);
-  // // side text
-  // legend.append("text")
-  //     .attr("x", width - 24)
-  //     .attr("y", 9.5)
-  //     .attr("dy", "0.32em")
-  //     .text(function(d) { return d; })
 });
 </script>

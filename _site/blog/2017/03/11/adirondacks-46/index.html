@@ -23,7 +23,23 @@
     });
 
   </script>
-  <link rel="icon" type="image/png" href="/assets/td.png" />
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/favicons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/assets/favicons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/assets/favicons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/assets/favicons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/assets/favicons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/assets/favicons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/assets/favicons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/favicons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="/assets/favicons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/assets/favicons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/assets/favicons/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
   <noscript id="deferred-styles">
     <link rel="stylesheet" type="text/css" href="/css/main.css"/>
   </noscript>
@@ -41,7 +57,7 @@
     <div class="content">
       <div hidden id="page-url">http://tdevisscher.ca/blog/2017/03/11/adirondacks-46/</div>
       <div hidden id="page-id">The Adirondacks 46 peaks TODO list</div>
-      <div id="banner_imgs" style="background-size: cover; background-position: center; height: 300px"> </div>
+      <div id="banner_imgs" style="background-size: cover!important; background-position: center!important; background-repeat: no-repeat!important; background-attachment: fixed!important; height: 300px;"> </div>
       <div class="toggle" id="toggle">
     <div class="hamburger" id="hamburger-6">
       <span class="line"></span>
@@ -131,7 +147,9 @@ var public_spreadsheet_url = 'https://docs.google.com/spreadsheets/d/13yxqxJADhS
 	function showInfo(table_data, tabletop) {
 		//alert("Successfully processed!")
 		peaks = table_data.Sheet1.elements;
+
 		for (var i = peaks.length - 1; i >= 0; i--) {
+
 			$( ".mountain_data" ).append('\
 				<tr>\
 				<td class="mountain_check">'+ peaks[i].Done +'</td>\
@@ -235,19 +253,6 @@ d3.csv("/assets/46Peaks.csv", function(d, i, columns) {
     .data(keys.slice().reverse())
     .enter().append("g")
       .attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; })
-
-  // // side rectangles
-  // legend.append("rect")
-  //     .attr("x", width - 19)
-  //     .attr("width", 19)
-  //     .attr("height", 19)
-  //     .attr("fill", z);
-  // // side text
-  // legend.append("text")
-  //     .attr("x", width - 24)
-  //     .attr("y", 9.5)
-  //     .attr("dy", "0.32em")
-  //     .text(function(d) { return d; })
 });
 </script>
 
@@ -267,7 +272,6 @@ d3.csv("/assets/46Peaks.csv", function(d, i, columns) {
           <script>
           var pgurl = document.getElementById("page-url").innerHTML;
           var pgid = document.getElementById("page-id").innerHTML;
-
           var disqus_config = function () {
           this.page.url = pgurl;  
           this.page.identifier = pgid; 
@@ -385,6 +389,9 @@ d3.csv("/assets/46Peaks.csv", function(d, i, columns) {
 </footer>
 
         <nav class="sidebar">
+          <ul class="center" >
+          <img src="/assets/td_logo_white.svg" style="height:100px; width:100px; margin-left:-30px;" />
+          </ul>
           <ul>
           <li class="center white">tdevisscher.ca</li>
             

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="328px" height="328px" viewBox="0 0 328 328" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>td_logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="td_logo" transform="translate(5.000000, 5.000000)">
+            <g id="Group" transform="translate(0.468312, 0.000000)">
+                <g>
+                    <g>
+                        <path d="M54.8098711,218.302861 C45.7434101,218.302861 38.4049356,210.964386 38.4049356,201.897925 L38.4049356,174.556366 L22,158.15143 L38.4049356,141.746495 L38.4049356,114.404936 C38.4049356,105.338475 45.7434101,98 54.8098711,98" id="Shape" stroke="#FDFDFD" stroke-width="5"></path>
+                        <path d="M263,218.302861 C272.066461,218.302861 279.404936,210.964386 279.404936,201.897925 L279.404936,174.556366 L295.853618,158.15143 L279.404936,141.746495 L279.404936,114.404936 C279.404936,105.338475 272.066461,98 263,98" id="Shape" stroke="#FDFDFD" stroke-width="5"></path>
+                        <text id="TD" font-family="TrebuchetMS, Trebuchet MS" font-size="144" font-weight="normal" fill="#FDFDFD">
+                            <tspan x="73.5429688" y="217">TD</tspan>
+                        </text>
+                        <path d="M251.542345,317.162088 L65.6197423,317.162088 C29.3812396,317.162088 0,287.780848 0,251.542345 L0,65.6197423 C0,29.3812396 29.3812396,0 65.6197423,0 L251.542345,0 C287.780848,0 317.162088,29.3812396 317.162088,65.6197423 L317.162088,251.542345 C317.162088,287.780848 287.780848,317.162088 251.542345,317.162088 L251.542345,317.162088 Z" id="Shape" stroke="#FDFDFD" stroke-width="10"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

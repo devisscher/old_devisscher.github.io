@@ -109,24 +109,27 @@
 * Site header
 */
 
+
+
 .site-header {
     z-index:3;
     top:0px;
     border-top: 5px solid $brand-color;
-    border-bottom: 1px solid $grey-color-light;
+    // border-bottom: 1px solid $grey-color-light;
     min-height: 50px;
     height:50px;
     // Positioning context for the mobile navigation icon
     position: fixed;
-    background-color: #fff;
+    background-color: transparent;
     width: 100%;
     -webkit-transition: .5s; /* Safari */
     transition: .5s;
 }
 
 .site-title {
+
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 900;
     line-height: 42px;
     letter-spacing: 2px;
     margin-bottom: 0;
@@ -134,7 +137,7 @@
     float: left;
     &,
     &:visited {
-        color: $grey-color-dark;
+        color: $background-color;
     }
 }
 
@@ -147,7 +150,7 @@
 .hamburger .line{
   width: 25px;
   height: 3px;
-  background-color: $grey-color-dark;
+  background-color: $background-color;
   display: block;
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
