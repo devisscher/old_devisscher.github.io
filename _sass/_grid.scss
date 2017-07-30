@@ -1,0 +1,10 @@
+.page-grid {
+	display:grid;
+   	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.gallery-img {
+	height: 300px;
+	width: 100%;
+	object-fit: cover;
+}
