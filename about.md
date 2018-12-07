@@ -50,10 +50,10 @@ When I'm not programming or outdoors cycling, skiing, camping, canoing or walkin
 	</div>
 <!--
 <div class="git-block-mobile">
-	<script src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/gh/IonicaBizau/github-calendar@gh-pages/dist/github-calendar.min.js"></script>
 
 
-	<link rel="stylesheet" href="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.css"/>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/IonicaBizau/github-calendar@gh-pages/dist/github-calendar.css"/>
 	<div class="calendar">
     Loading the data just for you.
 	</div>
