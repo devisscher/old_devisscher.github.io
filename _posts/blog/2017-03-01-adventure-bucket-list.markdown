@@ -19,4 +19,8 @@ Here is an incomplete list of adventures I would like to go on:
 
 <input type="checkbox" /> [Adirondacks 46 Peaks](https://tdevisscher.ca/)
 
+<input type="checkbox" /> [Wonderland Trail](https://www.nps.gov/mora/planyourvisit/the-wonderland-trail.htm)
+
+<input type="checkbox" /> [Westcoast Trail]()
+
 ... More to come
